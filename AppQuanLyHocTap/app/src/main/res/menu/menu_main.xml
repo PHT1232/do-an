@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="menuSearch"
+        appcompat:actionViewClass="android.widget.SearchView"
+        appcompat:showAsAction="always"/>
+
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/img6"
+        app:showAsAction="always"
+        android:title="TODO"
+        />
+
+</menu>
