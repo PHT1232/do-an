@@ -11,7 +11,7 @@ public interface AccountDAO {
     boolean insertAuthorities(String username, String authorities);
     boolean update(String id, Account account);
     boolean delete(String id);
-    List<Teacher> getById(String name);
     Account getByUserName(String userName);
     List<String> getUserRoles (String username);
+    Account getSignIn(String username, String password);
 }

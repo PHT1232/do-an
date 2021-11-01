@@ -69,22 +69,6 @@ public class AccountServiceIMPL implements AccountService {
         return accountDAO.delete(id);
     }
 
-    @Override
-    public List<TeacherDTO> getById(String id) {
-        List<TeacherDTO> lsDTO = new ArrayList<>();
-        List<Teacher> ls = accountDAO.getById(id);
-        for (Teacher teacher : ls) {
-            TeacherDTO teacherDTO = new TeacherDTO();
-            teacherDTO.setId(teacher.getId());
-            teacherDTO.setName(teacher.getName());
-            teacherDTO.setAge(teacher.getAge());
-            teacherDTO.setAddress(teacher.getAddress());
-            teacherDTO.setPicture(teacher.getPicture());
-            teacherDTO.setSdt(teacher.getSdt());
-            lsDTO.add(teacherDTO);
-        }
-        return lsDTO;
-    }
 
     @Override
     public AccountDTO getByUserName(String userName) {

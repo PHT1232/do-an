@@ -1,6 +1,8 @@
 package org.backend.controllers.REST;
 
+import org.backend.models.AccountDTO;
 import org.backend.models.TeacherDTO;
+import org.backend.service.AccountService;
 import org.backend.service.TeacherService;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +20,25 @@ public class TeacherRESTcontroller {
     @Autowired
     TeacherService teacherService;
 
+    @Autowired
+    AccountService accountService;
+
     @RequestMapping(value = "/getTeacher", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String getTeacher() {
         List<TeacherDTO> list = teacherService.getAll();
+        Gson gson = new Gson();
+        if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ANONYMOUS]")) {
+            if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ADMIN]")) {
+                return "you do not have the permission to access this page";
+            }
+        }
+        return gson.toJson(list);
+    }
+
+    @RequestMapping(value = "/getTeacherById", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
+    public String getTeacher(@RequestParam(name = "username") String username) {
+        AccountDTO accountDTO = accountService.getByUserName(username);
+        List<TeacherDTO> list = teacherService.getById(accountDTO.getTeacherId());
         Gson gson = new Gson();
         if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ANONYMOUS]")) {
             if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ADMIN]")) {
@@ -47,9 +65,12 @@ public class TeacherRESTcontroller {
         return "error";
     }
 
-    @RequestMapping(value = "/update-teacher", method = RequestMethod.POST)
-    public String updateTeacher(@RequestParam(name = "id") String id, @RequestParam(name = "name") String name, @RequestParam(name = "age") int age, @RequestParam(name = "address") String address, @RequestParam(name = "sdt") String sdt) {
+    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    public String updateTeacher(@RequestParam(value = "username") String username, @RequestParam(name = "name") String name, @RequestParam(name = "age") int age, @RequestParam(name = "address") String address, @RequestParam(name = "sdt") String sdt) {
         TeacherDTO tdt = new TeacherDTO();
+        String id;
+        AccountDTO accountDTO = accountService.getByUserName(username);
+        id = accountDTO.getTeacherId();
         tdt.setName(name);
         tdt.setAddress(address);
         tdt.setAge(age);

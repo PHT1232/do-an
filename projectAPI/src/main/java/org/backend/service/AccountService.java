@@ -13,7 +13,6 @@ public interface AccountService {
     boolean insertAuthorities(String username, String authorities);
     boolean update(String id, AccountDTO account);
     boolean delete(String id);
-    List<TeacherDTO> getById(String id);
     AccountDTO getByUserName(String userName);
     List<String> getUserRoles (String username);
 }

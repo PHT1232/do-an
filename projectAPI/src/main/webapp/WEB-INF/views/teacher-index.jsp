@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="<c:url value="/resource/css/phong.css"></c:url>">
 
 
-
     <!-- CSS Front Template -->
     <link rel="stylesheet" href="<c:url value="/resource/css/theme.min.css?v=1.0"></c:url>">
 </head>
@@ -555,24 +554,27 @@
                 Thêm khóa học mới
             </a>
         </div>
+
         <div class="content container-fluid d-flex">
             <!-- Table -->
             <table class="table">
                 <thead class="thead-light">
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Phone number</th>
                     </tr>
                 </thead>
                 <tbody>
+                <c:forEach items="${lsDTO}" var="lsDTO">
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <th scope="row">${lsDTO.id}</th>
+                        <td>${lsDTO.name}</td>
+                        <td>${lsDTO.age}</td>
+                        <td>${lsDTO.address}</td>
+                        <td>${lsDTO.sdt}</td>
                         <td>
                             <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Hành động
@@ -585,57 +587,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td>
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hành động
-                              </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                                <a class="dropdown-item" href="#">Xem chi tiết</a>
-                                <a class="dropdown-item" href="#">Gán lớp học</a>
-                                <a class="dropdown-item" href="#">Chỉnh sửa</a>
-                                <a class="dropdown-item" href="#">Gỡ</a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hành động
-                              </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                                <a class="dropdown-item" href="#">Xem chi tiết</a>
-                                <a class="dropdown-item" href="#">Gán lớp học</a>
-                                <a class="dropdown-item" href="#">Chỉnh sửa</a>
-                                <a class="dropdown-item" href="#">Gỡ</a>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                        <td>
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Hành động
-                              </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                                <a class="dropdown-item" href="#">Xem chi tiết</a>
-                                <a class="dropdown-item" href="#">Gán lớp học</a>
-                                <a class="dropdown-item" href="#">Chỉnh sửa</a>
-                                <a class="dropdown-item" href="#">Gỡ</a>
-                            </div>
-                        </td>
-                    </tr>
+                </c:forEach>
                 </tbody>
             </table>
             <!-- End Table -->

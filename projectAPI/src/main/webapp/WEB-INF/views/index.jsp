@@ -464,8 +464,8 @@
 
                                         <div class="dropdown-divider"></div>
 
-                                        <a class="dropdown-item" href="#">
-                                            <span class="text-truncate pr-2" title="Settings">Settings</span>
+                                        <a class="dropdown-item" href="<c:url value="/Teacher/Profile"></c:url>">
+                                            <span class="text-truncate pr-2" title="Settings">Profile</span>
                                         </a>
                                         <a class="dropdown-item" href="<c:url value="/logout"></c:url>">
                                             <span class="text-truncate pr-2" title="Sign out">Sign out</span>
@@ -660,20 +660,18 @@
             <div class="page-header">
                 <div class="row align-items-center">
                     <div class="col-sm mb-2 mb-sm-0">
-                        <h1 class="page-header-title">Bài giảng mới</h1>
+                        <h1 class="page-header-title">Lớp</h1>
                     </div>
                 </div>
             </div>
 
             <div class="row d-flex">
-
                 <!-- Card -->
                 <div class="card">
-                    <img class="card-img-top" src="./img/demo.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="<c:url value="/resource/img/demo.jpg"></c:url>" alt="Card image cap">
                     <div class="card-body">
-                        <h3 class="card-title"><a href="">Card title</a></h3>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a longer card with supporting text below as a natural lead-in to additional content. This
-                            content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h3 class="card-title"><a href="">DH9C8</a></h3>
+                        <p class="card-text">Nguyễn Thị Nga</p>
                         <p class="card-text">
                             <small class="text-muted">14/10/2021</small>
                         </p>
@@ -681,57 +679,6 @@
                 </div>
                 <!-- End Card -->
 
-                <!-- Card -->
-                <div class="card">
-                    <img class="card-img-top" src="./img/demo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">
-                            <small class="text-muted">14/10/2021</small>
-                        </p>
-                    </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <img class="card-img-top" src="./img/demo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">
-                            <small class="text-muted">14/10/2021</small>
-                        </p>
-                    </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <img class="card-img-top" src="./img/demo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">
-                            <small class="text-muted">14/10/2021</small>
-                        </p>
-                    </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <img class="card-img-top" src="./img/demo.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">
-                            <small class="text-muted">14/10/2021</small>
-                        </p>
-                    </div>
-                </div>
-                <!-- End Card -->
             </div>
         </div>
 

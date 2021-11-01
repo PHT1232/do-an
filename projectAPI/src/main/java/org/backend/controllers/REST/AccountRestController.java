@@ -38,6 +38,23 @@ public class AccountRestController {
         return gson.toJson(ls);
     }
 
+    @RequestMapping(value = "/getAccountByUsername", method = RequestMethod.GET)
+    public String getAccountByUsername(@RequestParam(name = "username") String username) {
+        AccountDTO ls = accountService.getByUserName(username);
+        Gson gson = new Gson();
+        if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ANONYMOUS]")) {
+            if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ADMIN]")) {
+                return "you do not have the permission to access this page";
+            }
+        }
+        return gson.toJson(ls);
+    }
+
+//    @RequestMapping(value = "/sign-in", method = RequestMethod.GET)
+//    public String signIn() {
+//
+//    }
+
     @RequestMapping(value = "/add-account", method = RequestMethod.POST)
     public String addAccount(@RequestParam(name = "username") String username, @RequestParam(name = "password") String password, @RequestParam(name = "teacherId", required = false) String teacherId, @RequestParam(name = "studentId", required = false) String studentId, @RequestParam(name = "authority") String authority) {
         AccountDTO aDTO = new AccountDTO();
@@ -74,4 +91,5 @@ public class AccountRestController {
         String error = "You don't have permission on this site";
         return error;
     }
+
 }

@@ -67,28 +67,6 @@ public class AccountIMPL implements AccountDAO {
     }
 
     @Override
-    public List<Teacher> getById(String name) {
-        String sql = "SELECT id, name, age, address, picture, sdt FROM account inner join giaovien on giaovien.id = account.teacherId WHERE account.username = ?";
-        return jdbcTemplate.query(sql, new ResultSetExtractor<List<Teacher>>() {
-            @Override
-            public List<Teacher> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
-                List<Teacher> ls = new ArrayList<>();
-                while (resultSet.next()) {
-                    Teacher tc = new Teacher();
-                    tc.setId(resultSet.getString("id"));
-                    tc.setName(resultSet.getString("name"));
-                    tc.setAddress(resultSet.getString("address"));
-                    tc.setAge(resultSet.getInt("age"));
-                    tc.setPicture(resultSet.getString("picture"));
-                    tc.setSdt(resultSet.getString("sdt"));
-                    ls.add(tc);
-                }
-                return ls;
-            }
-        }, name);
-    }
-
-    @Override
     public Account getByUserName(String userName) {
         String sql = "SELECT * FROM account where username = ?";
         return jdbcTemplate.query(sql, new ResultSetExtractor<Account>() {
@@ -119,5 +97,22 @@ public class AccountIMPL implements AccountDAO {
                 return roles;
             }
         }, username);
+    }
+
+    @Override
+    public Account getSignIn(String username, String password) {
+        String sql = "SELECT account.username, password, teacherId, studentId, enabled, authority FROM account inner join authorities on authorities.username = account.username WHERE account.username = ? AND password = ?";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<Account>() {
+            @Override
+            public Account extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                Account ac = new Account();
+                while (resultSet.next()) {
+                    ac.setUserName(resultSet.getString("username"));
+                    ac.setPassword(resultSet.getString("password"));
+
+                }
+                return null;
+            }
+        });
     }
 }
