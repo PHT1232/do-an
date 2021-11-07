@@ -4,9 +4,12 @@
 
 a {
     color: black!important;
+    &.active {
+        color: #377dff!important;
+    }
 }
 
-.card {
+.card-index {
     max-width: 20rem;
     margin: 15px 0px 0px 15px;
     width: 23%;
@@ -31,6 +34,27 @@ a {
 
 .content-course {
     justify-content: center;
+}
+
+.label {
+    margin-top: 15px;
+}
+
+.save-btn {
+    margin-top: 15px;
+    max-width: 150px;
+}
+
+.add-question {
+    margin-top: 15px;
+    max-width: 150px;
+}
+
+.answers {
+    margin-top: 15px;
+    .input-group {
+        margin-top: 15px;
+    }
 }
 
 .more-course {
@@ -92,6 +116,10 @@ a {
     background-color: #828282;
     border-radius: 10px;
     border: 3px solid #ffffff;
+}
+
+.btn-add-course {
+    text-align: right;
 }
 
 @media(max-width: 768px) {

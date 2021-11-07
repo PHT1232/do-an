@@ -8,13 +8,17 @@ a {
   color: black !important;
 }
 
-.card {
+a.active {
+  color: #377dff !important;
+}
+
+.card-index {
   max-width: 20rem;
   margin: 15px 0px 0px 15px;
   width: 23%;
 }
 
-.card .card-text {
+.card-index .card-text {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -37,6 +41,28 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.label {
+  margin-top: 15px;
+}
+
+.save-btn {
+  margin-top: 15px;
+  max-width: 150px;
+}
+
+.add-question {
+  margin-top: 15px;
+  max-width: 150px;
+}
+
+.answers {
+  margin-top: 15px;
+}
+
+.answers .input-group {
+  margin-top: 15px;
 }
 
 .more-course {
@@ -100,6 +126,10 @@ a {
   background-color: #828282;
   border-radius: 10px;
   border: 3px solid #ffffff;
+}
+
+.btn-add-course {
+  text-align: right;
 }
 
 @media (max-width: 768px) {

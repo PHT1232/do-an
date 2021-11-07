@@ -1,6 +1,8 @@
 package org.backend.controllers.REST;
 
+import org.backend.models.AccountDTO;
 import org.backend.models.StudentDTO;
+import org.backend.service.AccountService;
 import org.backend.service.StudentService;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +23,9 @@ import java.util.List;
 public class StudentRESTcontroller {
     @Autowired
     StudentService studentService;
+
+    @Autowired
+    AccountService accountService;
 
     @RequestMapping(value = "/admin/getStudent", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String getStudent(HttpServletRequest request) {

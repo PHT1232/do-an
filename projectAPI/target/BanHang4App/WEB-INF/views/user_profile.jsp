@@ -754,7 +754,7 @@
                             </li>
 
                             <li class="nav-item ml-auto">
-                                    <a class="btn btn-sm btn-white mr-2" href="#" id="editBtn" onclick="changeProfileHtml()">
+                                    <a class="btn btn-sm btn-white mr-2" id="editBtn" onclick="changeProfileHtml()">
                                         <i class="tio-edit mr-1" id="editProfileIcon"></i> <span id="editProfile">Edit profile</span>
                                     </a>
 
@@ -1000,7 +1000,8 @@
     <script src="<c:url value="/resource/js/vendor.min.js"></c:url>"></script>
     <script src="<c:url value="/resource/js/theme.min.js"></c:url>"></script>
     <script src="<c:url value="/resource/js/index.js"></c:url>"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<%--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>--%>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
             integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn"
             crossorigin="anonymous"></script>
@@ -1021,6 +1022,7 @@
             editProfileIcon.style.display = "none";
             editProfile.innerHTML = 'Save Change';
             name.style.display = "none";
+            username.style.display = "none";
             nameInput.style.display = "block";
             age.style.display = "none";
             ageInput.style.display = "block";
@@ -1032,8 +1034,9 @@
         }
 
         function updateProfile() {
-            var ctx = "${pageContext}";
-            alert(ctx)
+            // var currentURL = window.location.href;
+            var updateURL = "${}${url}";
+            alert(updateURL)
             // $.ajax({
             //     url
             // })

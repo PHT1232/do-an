@@ -111,7 +111,7 @@ public class AccountIMPL implements AccountDAO {
                     ac.setPassword(resultSet.getString("password"));
 
                 }
-                return null;
+                return ac;
             }
         });
     }

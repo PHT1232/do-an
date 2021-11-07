@@ -165,10 +165,10 @@
 
 
 <!-- JS Implementing Plugins -->
-<script src="./js/vendor.min.js"></script>
+<script src="<c:url value="/resource/js/vendor.min.js"></c:url>"></script>
 
 <!-- JS Front -->
-<script src="./js/theme.min.js"></script>
+<script src="<c:url value="/resource/js/theme.min.js"></c:url>"></script>
 
 <!-- JS Plugins Init. -->
 <script>
