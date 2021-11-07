@@ -40,11 +40,11 @@ public class TeacherRESTcontroller {
         AccountDTO accountDTO = accountService.getByUserName(username);
         List<TeacherDTO> list = teacherService.getById(accountDTO.getTeacherId());
         Gson gson = new Gson();
-        if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ANONYMOUS]")) {
-            if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ADMIN]")) {
-                return "you do not have the permission to access this page";
-            }
-        }
+//        if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ANONYMOUS]")) {
+//            if (!String.valueOf(SecurityContextHolder.getContext().getAuthentication().getAuthorities()).equals("[ROLE_ADMIN]")) {
+//                return "you do not have the permission to access this page";
+//            }
+//        }
         return gson.toJson(list);
     }
 

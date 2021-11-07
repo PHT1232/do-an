@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page pageEncoding="UTF-8" %>
 <html>
 <body onload='document.loginForm.username.focus();'>
 <h1>Spring Security 5 - Login Form</h1>
@@ -17,11 +18,11 @@
 <table>
         <tr>
             <td>UserName:</td>
-            <td><input type='text' name='username' value=''></td>
+            <td>${name}</td>
         </tr>
         <tr>
             <td>Password:</td>
-            <td><input type='password' name='password' /></td>
+            <td>${address}</td>
         </tr>
         <tr>
             <td colspan='2'><input name="submit" type="submit" value="submit" /></td>

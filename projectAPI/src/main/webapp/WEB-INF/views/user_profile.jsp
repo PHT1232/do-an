@@ -752,7 +752,7 @@
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="#">Bài tập</a>
                             </li>
-                            <form action="<c:url value="/update" ></c:url>" method="post">
+                            <form action="Update" method="post">
                                 <li class="nav-item ml-auto">
                                     <a class="btn btn-sm btn-white mr-2" id="editBtn" onclick="changeProfileHtml()">
                                         <i class="tio-edit mr-1" id="editProfileIcon"></i> <span id="editProfile">Edit profile</span>
@@ -903,7 +903,7 @@
                             </div>
                             <div class="col-sm-9 text-secondary">
                                 <span style="display: block;" id="name">${lsDTO.name}</span>
-                                <input type="text" value="${lsDTO.name}" id="nameInput" style="display: none;" class="form-control"/>
+                                <input type="text" value="${lsDTO.name}" name="name" id="nameInput" style="display: none;" class="form-control"/>
                             </div>
                         </div>
                         <br/>
@@ -913,16 +913,16 @@
                             </div>
                             <div class="col-sm-9 text-secondary">
                                 <span style="display: block;" id="age">${lsDTO.age}</span>
-                                <input type="text" value="${lsDTO.age}" id="ageInput" style="display: none;" class="form-control"/>
+                                <input type="number" value="${lsDTO.age}" name="age" id="ageInput" style="display: none;" class="form-control"/>
                             </div>
                         </div>
                         <br/>
-                        <div class="row">
+                        <div class="row" id="username">
                             <div class="col-sm-3">
                                 <h6>Email</h6>
                             </div>
                             <div class="col-sm-9 text-secondary">
-                                <span style="display: block;" id="username">${username}</span>
+                                <span style="display: block;">${username}</span>
                             </div>
                         </div>
                         <br/>
@@ -1021,6 +1021,7 @@
             var address = document.getElementById("address");
             var editProfileIcon = document.getElementById("editProfileIcon");
             var editProfile = document.getElementById("editProfile");
+            var updateBtn = document.getElementById("updateBtn");
 
             editProfileIcon.style.display = "none";
             editProfile.innerHTML = 'Save Change';
@@ -1033,7 +1034,8 @@
             sdtInput.style.display = "block";
             addressInput.style.display = "block";
             address.style.display = "none";
-            document.getElementById("editBtn").onclick = updateProfile;
+            updateBtn.style.display = "";
+            document.getElementById("editBtn").style.display = "none";
         }
     </script>
 

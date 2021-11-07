@@ -8,8 +8,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
@@ -21,9 +23,12 @@ import java.util.Scanner;
 @RequestMapping(value = "/Teacher")
 public class TeacherController {
 
+    HttpSession session;
+
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String index(ModelMap map, HttpServletRequest request) throws IOException {
         request.setCharacterEncoding("UTF-8");
+        session = request.getSession(false);
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         String requestContext = request.getContextPath();
         String requestServerName = request.getServerName();
@@ -44,6 +49,7 @@ public class TeacherController {
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject obj = jsonArray.getJSONObject(i);
             map.addAttribute("name", obj.getString("name"));
+            session.setAttribute("id", obj.getString("id"));
         }
 //        String email = jsonObject.getString("username");
         map.addAttribute("username", username);
@@ -83,8 +89,16 @@ public class TeacherController {
             lsdto.add(tc);
         }
 //        String email = jsonObject.getString("username");
+        map.addAttribute("url", "Teacher");
         map.addAttribute("username", username);
         map.addAttribute("lsDTO", lsdto);
         return "user_profile";
+    }
+
+    @RequestMapping(value = "/Update", method = RequestMethod.POST)
+    public String update(ModelMap map, @RequestParam("name") String name, @RequestParam("age") int age, @RequestParam("phone") String phone, @RequestParam("address") String address) {
+        String id = (String) session.getAttribute("id");
+
+        return "login";
     }
 }
