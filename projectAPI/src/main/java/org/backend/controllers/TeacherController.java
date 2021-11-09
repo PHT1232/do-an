@@ -1,5 +1,17 @@
 package org.backend.controllers;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
+import org.backend.entity.Teacher;
+import org.backend.models.AccountDTO;
 import org.backend.models.TeacherDTO;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -14,10 +26,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.net.URLConnection;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+
+import org.apache.http.impl.client.HttpClients;
 
 @Controller
 @RequestMapping(value = "/Teacher")
@@ -96,9 +111,25 @@ public class TeacherController {
     }
 
     @RequestMapping(value = "/Update", method = RequestMethod.POST)
-    public String update(ModelMap map, @RequestParam("name") String name, @RequestParam("age") int age, @RequestParam("phone") String phone, @RequestParam("address") String address) {
+    public String update(ModelMap map, HttpServletRequest request, @RequestParam("name") String name, @RequestParam("age") int age, @RequestParam("phone") String phone, @RequestParam("address") String address) throws IOException{
         String id = (String) session.getAttribute("id");
+        String requestContext = request.getContextPath();
+        String requestServerName = request.getServerName();
+        int requestServerPort = request.getServerPort();
+        String s = "http://" + requestServerName + ":" + requestServerPort + requestContext + "/update";
+        HttpClient httpClient = HttpClients.createDefault();
+        HttpPost httpPost = new HttpPost(s);
+        List<NameValuePair> params = new ArrayList<NameValuePair>(2);
+        params.add(new BasicNameValuePair("name", name));
+        params.add(new BasicNameValuePair("id", id));
+        params.add(new BasicNameValuePair("address", address));
+        params.add(new BasicNameValuePair("sdt", phone));
+        httpPost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
+        try (CloseableHttpClient httpCl = HttpClients.createDefault();
+             CloseableHttpResponse response = httpCl.execute(httpPost)) {
 
+            System.out.println(EntityUtils.toString(response.getEntity()));
+        }
         return "login";
     }
 }
