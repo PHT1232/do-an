@@ -29,6 +29,7 @@ public class ApplicationConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         String folder = "C:/Users/KT/IdeaProjects/demo/springAPI/uploads";
         registry.addResourceHandler("/resource/**").addResourceLocations("/resources/");
+        registry.addResourceHandler("/backend/**").addResourceLocations("/backend/");
         registry.addResourceHandler("/upload/**").addResourceLocations("file:///" + folder + "/");
     }
 

@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.List;
 
@@ -65,8 +68,8 @@ public class TeacherRESTcontroller {
         return "error";
     }
 
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String updateTeacher(@RequestParam(value = "username") String username, @RequestParam(name = "name") String name, @RequestParam(name = "age") int age, @RequestParam(name = "address") String address, @RequestParam(name = "sdt") String sdt) {
+    @RequestMapping(value = "/updateTeacherProfile", method = RequestMethod.POST)
+    public RedirectView updateTeacher(@RequestParam(value = "username") String username, @RequestParam(name = "name") String name, @RequestParam(name = "age") int age, @RequestParam(name = "address") String address, @RequestParam(name = "phone") String sdt) {
         TeacherDTO tdt = new TeacherDTO();
         String id;
         AccountDTO accountDTO = accountService.getByUserName(username);
@@ -77,10 +80,17 @@ public class TeacherRESTcontroller {
         tdt.setSdt(sdt);
         try {
             teacherService.update(id, tdt);
-            return "success";
+            return new RedirectView("Teacher/Profile");
         } catch (Exception e) {
 
         }
-        return "error";
+        return new RedirectView("Teacher/Profile");
+    }
+
+    @RequestMapping(value = "/uploadBaiTap", method = RequestMethod.POST)
+    public RedirectView uploadBaiTap(@RequestParam(value = "username") String username, @RequestParam(value = "classId", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("file") MultipartFile file, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) {
+        System.out.println(username);
+        System.out.println(noiDungBaiTap);
+        return new RedirectView("Teacher/addBaiTap");
     }
 }

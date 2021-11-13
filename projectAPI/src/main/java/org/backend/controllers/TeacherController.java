@@ -1,7 +1,5 @@
 package org.backend.controllers;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -10,8 +8,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-import org.backend.entity.Teacher;
-import org.backend.models.AccountDTO;
 import org.backend.models.TeacherDTO;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -25,11 +21,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 import org.apache.http.impl.client.HttpClients;
@@ -67,6 +59,7 @@ public class TeacherController {
             session.setAttribute("id", obj.getString("id"));
         }
 //        String email = jsonObject.getString("username");
+//        map.addAttribute("indexUrl", "index");
         map.addAttribute("username", username);
         return "index";
     }
@@ -105,31 +98,61 @@ public class TeacherController {
         }
 //        String email = jsonObject.getString("username");
         map.addAttribute("url", "Teacher");
+        map.addAttribute("updateContext", requestContext + "/updateTeacherProfile");
         map.addAttribute("username", username);
         map.addAttribute("lsDTO", lsdto);
         return "user_profile";
     }
 
-    @RequestMapping(value = "/Update", method = RequestMethod.POST)
-    public String update(ModelMap map, HttpServletRequest request, @RequestParam("name") String name, @RequestParam("age") int age, @RequestParam("phone") String phone, @RequestParam("address") String address) throws IOException{
-        String id = (String) session.getAttribute("id");
+//    @RequestMapping(value = "/Update", method = RequestMethod.POST)
+//    public String update(ModelMap map, HttpServletRequest request, @RequestParam("name") String name, @RequestParam("age") int age, @RequestParam("phone") String phone, @RequestParam("address") String address) throws IOException{
+//        String id = (String) session.getAttribute("id");
+//        String requestContext = request.getContextPath();
+//        String requestServerName = request.getServerName();
+//        int requestServerPort = request.getServerPort();
+//        String s = "http://" + requestServerName + ":" + requestServerPort + requestContext + "/update";
+//        HttpClient httpClient = HttpClients.createDefault();
+//        HttpPost httpPost = new HttpPost(s);
+//        List<NameValuePair> params = new ArrayList<NameValuePair>(2);
+//        params.add(new BasicNameValuePair("name", name));
+//        params.add(new BasicNameValuePair("id", id));
+//        params.add(new BasicNameValuePair("address", address));
+//        params.add(new BasicNameValuePair("sdt", phone));
+//        httpPost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
+//        try (CloseableHttpClient httpCl = HttpClients.createDefault();
+//             CloseableHttpResponse response = httpCl.execute(httpPost)) {
+//
+//            System.out.println(EntityUtils.toString(response.getEntity()));
+//        }
+//        return "login";
+//    }
+
+    @RequestMapping(value = "/addBaiTap", method = RequestMethod.GET)
+    public String baiTap(HttpServletRequest request, ModelMap map, @RequestParam(value = "className", required = false) String className, @RequestParam(value = "classID", required = false) String classID) throws IOException {
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
         String requestContext = request.getContextPath();
         String requestServerName = request.getServerName();
         int requestServerPort = request.getServerPort();
-        String s = "http://" + requestServerName + ":" + requestServerPort + requestContext + "/update";
-        HttpClient httpClient = HttpClients.createDefault();
-        HttpPost httpPost = new HttpPost(s);
-        List<NameValuePair> params = new ArrayList<NameValuePair>(2);
-        params.add(new BasicNameValuePair("name", name));
-        params.add(new BasicNameValuePair("id", id));
-        params.add(new BasicNameValuePair("address", address));
-        params.add(new BasicNameValuePair("sdt", phone));
-        httpPost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
-        try (CloseableHttpClient httpCl = HttpClients.createDefault();
-             CloseableHttpResponse response = httpCl.execute(httpPost)) {
+        String s = "http://" + requestServerName + ":" + requestServerPort + requestContext + "/getTeacherById?username=" + username;
+        URL url;
+        Scanner sc;
+        String str;
+        url = new URL(s);
 
-            System.out.println(EntityUtils.toString(response.getEntity()));
+        sc = new Scanner(url.openStream(), "UTF-8");
+        str = new String();
+        while (sc.hasNext()) {
+            str += sc.nextLine();
         }
-        return "login";
+        sc.close();
+        JSONArray jsonArray = new JSONArray(str);
+        for (int i = 0; i < jsonArray.length(); i++) {
+            JSONObject obj = jsonArray.getJSONObject(i);
+            map.addAttribute("name", obj.getString("name"));
+        }
+//        map.addAttribute("className", className);
+//        map.addAttribute("class", classID);
+        map.addAttribute("username", username);
+        return "add-baiTap";
     }
 }

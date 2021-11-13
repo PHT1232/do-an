@@ -38,7 +38,8 @@
                 <div class="navbar-nav-wrap">
                     <div class="navbar-brand-wrapper">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./index.html" aria-label="Front">
+                        ${indexUrl}
+                        <a class="navbar-brand" href="index" aria-label="Front">
                             <img class="navbar-brand-logo" src="<c:url value="/resource/img/logo-white.svg"></c:url>" alt="Logo">
                         </a>
                         <!-- End Logo -->
@@ -752,14 +753,14 @@
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="#">Bài tập</a>
                             </li>
-                            <form action="Update" method="post">
+
                                 <li class="nav-item ml-auto">
                                     <a class="btn btn-sm btn-white mr-2" id="editBtn" onclick="changeProfileHtml()">
                                         <i class="tio-edit mr-1" id="editProfileIcon"></i> <span id="editProfile">Edit profile</span>
                                     </a>
-                                    <button class="btn btn-sm btn-white mr-2" id="updateBtn" type="submit" style="display: none">
-                                        Save change
-                                    </button>
+<%--                                    <button class="btn btn-sm btn-white mr-2" id="updateBtn" type="submit" style="display: none">--%>
+<%--                                        Save change--%>
+<%--                                    </button>--%>
                                     <a class="btn btn-icon btn-sm btn-white mr-2" href="#">
                                         <i class="tio-format-points mr-1"></i>
                                     </a>
@@ -801,7 +802,7 @@
                         </ul>
                     </div>
             <!-- End Nav -->
-
+            <form action="${updateContext}" id="formPost" method="post">
             <div class="row">
                 <%--                        <div class="col-lg-4">--%>
                 <%--                            <!-- Card -->--%>
@@ -923,6 +924,7 @@
                             </div>
                             <div class="col-sm-9 text-secondary">
                                 <span style="display: block;">${username}</span>
+                                <input type="text" value="${username}" name="username" style="display: none;"/>
                             </div>
                         </div>
                         <br/>
@@ -946,10 +948,11 @@
                             </div>
                         </div>
                     </c:forEach>
-                    </form>
+
 <%--                     End Card --%>
 <%--                        </div>--%>
                     </div>
+            </form>
                 </div>
             </div>
         </div>
@@ -1021,7 +1024,8 @@
             var address = document.getElementById("address");
             var editProfileIcon = document.getElementById("editProfileIcon");
             var editProfile = document.getElementById("editProfile");
-            var updateBtn = document.getElementById("updateBtn");
+            // var updateBtn = document.getElementById("updateBtn");
+            var formPost = document.getElementById("formPost");
 
             editProfileIcon.style.display = "none";
             editProfile.innerHTML = 'Save Change';
@@ -1034,9 +1038,12 @@
             sdtInput.style.display = "block";
             addressInput.style.display = "block";
             address.style.display = "none";
-            updateBtn.style.display = "";
-            document.getElementById("editBtn").style.display = "none";
+            // updateBtn.style.display = "";
+            // document.getElementById("editBtn").innerHTML = "Save Change";
+            document.getElementById("editBtn").onclick = function () {formPost.submit()};
+            editProfile.innerText = "Save Change";
         }
+
     </script>
 
 </body>
