@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -25,7 +26,7 @@ public class baiTapIMPL implements baiTapDAO {
 
     @Override
     public baiTap getById(int id) {
-        String sql = "SELECT * FROM baitap where id = ?";
+        String sql = "SELECT * FROM baitap WHERE id = ?";
         return jdbcTemplate.query(sql, new ResultSetExtractor<baiTap>() {
             @Override
             public baiTap extractData(ResultSet resultSet) throws SQLException, DataAccessException {
@@ -39,6 +40,28 @@ public class baiTapIMPL implements baiTapDAO {
                 return bt;
             }
         }, id);
+    }
+
+    @Override
+    public List<baiTap> getListById(int id) {
+        String sql = "SELECT * FROM baitap WHERE classId = ?";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<List<baiTap>>() {
+            @Override
+            public List<baiTap> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                List<baiTap> ls = new ArrayList();
+                while (resultSet.next()) {
+                    baiTap bt = new baiTap();
+                    bt.setName(resultSet.getString("name"));
+                    bt.setUsername(resultSet.getString("username"));
+                    bt.setDeadline(resultSet.getString("deadline"));
+                    bt.setDeadline(resultSet.getString("file"));
+                    bt.setTenBaiTap(resultSet.getString("tenBaiTap"));
+                    bt.setNoiDungBaiTap(resultSet.getString("noiDungBaiTap"));
+                    ls.add(bt);
+                }
+                return ls;
+            }
+        });
     }
 
     @Override

@@ -7,6 +7,7 @@ import org.backend.service.baiTapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -32,6 +33,23 @@ public class baiTapServiceIMPL implements baiTapService {
         btd.setTenBaiTap(bt.getTenBaiTap());
         btd.setNoiDungBaiTap(bt.getNoiDungBaiTap());
         return btd;
+    }
+
+    @Override
+    public List<baiTapDTO> getListById(int id) {
+        List<baiTapDTO> ls = new ArrayList<>();
+        for (baiTap bt : bti.getListById(id)) {
+            baiTapDTO btd = new baiTapDTO();
+            btd.setId(bt.getId());
+            btd.setName(bt.getName());
+            btd.setUsername(bt.getUsername());
+            btd.setDeadline(bt.getDeadline());
+            btd.setFile(bt.getFile());
+            btd.setTenBaiTap(bt.getTenBaiTap());
+            btd.setNoiDungBaiTap(bt.getNoiDungBaiTap());
+            ls.add(btd);
+        }
+        return ls;
     }
 
     @Override

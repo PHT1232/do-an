@@ -2,6 +2,7 @@ package org.backend.controllers.REST;
 
 import org.backend.models.AccountDTO;
 import org.backend.models.TeacherDTO;
+import org.backend.models.baiTapDTO;
 import org.backend.service.AccountService;
 import org.backend.service.TeacherService;
 import com.google.gson.Gson;
@@ -89,8 +90,13 @@ public class TeacherRESTcontroller {
 
     @RequestMapping(value = "/uploadBaiTap", method = RequestMethod.POST)
     public RedirectView uploadBaiTap(@RequestParam(value = "username") String username, @RequestParam(value = "classId", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("file") MultipartFile file, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) {
-        System.out.println(username);
-        System.out.println(noiDungBaiTap);
+        baiTapDTO btd = new baiTapDTO();
+        btd.setUsername(username);
+        btd.setDeadline(deadline);
+        btd.setTenBaiTap(tenBaiTap);
+        btd.setNoiDungBaiTap(noiDungBaiTap);
+        btd.setFile(file.getOriginalFilename());
+        
         return new RedirectView("Teacher/addBaiTap");
     }
 }
