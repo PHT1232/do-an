@@ -7,6 +7,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -52,4 +53,11 @@ public class StudentControllers {
 //        map.addAttribute("lsDTO", lsdto);
 //        return "teacher-index";
 //    }
+    @RequestMapping(value = "/baiTap", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
+    public String addBaiTap(ModelMap map) {
+        map.addAttribute("tenBaiTap", "Tập thể dục hang ngày");
+        map.addAttribute("denHan", "20/11/2001");
+        map.addAttribute("noiDungBaiTap", "Nhảy dây 30 lần/phút, 50 lần/phút, 70 lần/phút");
+        return "BaiTapDisplay";
+    }
 }

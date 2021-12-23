@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.view.RedirectView;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -88,5 +89,13 @@ public class StudentRESTcontroller {
         List<StudentDTO> st = studentService.getById(id);
         Gson gson = new Gson();
         return gson.toJson(st);
+    }
+
+
+
+    @RequestMapping(value = "/nopBaiTap", method = RequestMethod.POST)
+    public RedirectView nopBaiTap() {
+
+        return new RedirectView("Student/baiTap");
     }
 }

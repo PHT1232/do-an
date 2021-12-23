@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class AdminController {
+
     @RequestMapping(value = "/admin/index", method = RequestMethod.GET)
     public String index() {
         return "backendIndex";

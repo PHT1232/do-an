@@ -6,6 +6,7 @@ import org.backend.models.baiTapDTO;
 import org.backend.service.AccountService;
 import org.backend.service.TeacherService;
 import com.google.gson.Gson;
+import org.backend.service.baiTapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,6 +27,9 @@ public class TeacherRESTcontroller {
 
     @Autowired
     AccountService accountService;
+
+    @Autowired
+    baiTapService baitapservice;
 
     @RequestMapping(value = "/getTeacher", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String getTeacher() {
@@ -96,7 +100,7 @@ public class TeacherRESTcontroller {
         btd.setTenBaiTap(tenBaiTap);
         btd.setNoiDungBaiTap(noiDungBaiTap);
         btd.setFile(file.getOriginalFilename());
-        
+        baitapservice.insert(btd);
         return new RedirectView("Teacher/addBaiTap");
     }
 }
