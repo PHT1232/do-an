@@ -31,12 +31,13 @@ public class baiTapIMPL implements baiTapDAO {
             @Override
             public baiTap extractData(ResultSet resultSet) throws SQLException, DataAccessException {
                 baiTap bt = new baiTap();
-                bt.setName(resultSet.getString("name"));
-                bt.setUsername(resultSet.getString("username"));
-                bt.setDeadline(resultSet.getString("deadline"));
-                bt.setDeadline(resultSet.getString("file"));
-                bt.setTenBaiTap(resultSet.getString("tenBaiTap"));
-                bt.setNoiDungBaiTap(resultSet.getString("noiDungBaiTap"));
+                while (resultSet.next()) {
+                    bt.setUsername(resultSet.getString("username"));
+                    bt.setDeadline(resultSet.getString("deadline"));
+                    bt.setFile(resultSet.getString("file"));
+                    bt.setTenBaiTap(resultSet.getString("tenBaiTap"));
+                    bt.setNoiDungBaiTap(resultSet.getString("noiDungBaiTap"));
+                }
                 return bt;
             }
         }, id);

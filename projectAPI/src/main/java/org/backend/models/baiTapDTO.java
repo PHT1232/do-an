@@ -13,6 +13,16 @@ public class baiTapDTO {
 
     }
 
+    public baiTapDTO(int id, String name, String username, String deadline, String file, String tenBaiTap, String noiDungBaiTap) {
+        this.id = id;
+        this.name = name;
+        this.username = username;
+        this.deadline = deadline;
+        this.file = file;
+        this.tenBaiTap = tenBaiTap;
+        this.noiDungBaiTap = noiDungBaiTap;
+    }
+
     public int getId() {
         return id;
     }

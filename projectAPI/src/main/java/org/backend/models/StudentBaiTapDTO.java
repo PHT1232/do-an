@@ -3,17 +3,21 @@ package org.backend.models;
 public class StudentBaiTapDTO {
     private int id;
     private String username;
-    private String file;
-    private String lienKet;
+    private int file;
+    private int lienKet;
+    private String fileName;
+    private String lienKetName;
 
     public StudentBaiTapDTO() {
     }
 
-    public StudentBaiTapDTO(int id, String username, String file, String lienKet) {
+    public StudentBaiTapDTO(int id, String username, int file, int lienKet, String fileName, String lienKetName) {
         this.id = id;
         this.username = username;
         this.file = file;
         this.lienKet = lienKet;
+        this.fileName = fileName;
+        this.lienKetName = lienKetName;
     }
 
     public int getId() {
@@ -32,19 +36,35 @@ public class StudentBaiTapDTO {
         this.username = username;
     }
 
-    public String getFile() {
+    public int getFile() {
         return file;
     }
 
-    public void setFile(String file) {
+    public void setFile(int file) {
         this.file = file;
     }
 
-    public String getLienKet() {
+    public int getLienKet() {
         return lienKet;
     }
 
-    public void setLienKet(String lienKet) {
+    public void setLienKet(int lienKet) {
         this.lienKet = lienKet;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public String getLienKetName() {
+        return lienKetName;
+    }
+
+    public void setLienKetName(String lienKetName) {
+        this.lienKetName = lienKetName;
     }
 }

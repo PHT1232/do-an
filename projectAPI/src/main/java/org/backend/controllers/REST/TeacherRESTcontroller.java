@@ -9,14 +9,19 @@ import com.google.gson.Gson;
 import org.backend.service.baiTapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.ui.ModelMap;
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.view.RedirectView;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.List;
 
 @RestController
@@ -93,13 +98,31 @@ public class TeacherRESTcontroller {
     }
 
     @RequestMapping(value = "/uploadBaiTap", method = RequestMethod.POST)
-    public RedirectView uploadBaiTap(@RequestParam(value = "username") String username, @RequestParam(value = "classId", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("file") MultipartFile file, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) {
+    public RedirectView uploadBaiTap(@RequestParam(value = "classId", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("file") MultipartFile file, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) throws IOException {
         baiTapDTO btd = new baiTapDTO();
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
         btd.setUsername(username);
         btd.setDeadline(deadline);
         btd.setTenBaiTap(tenBaiTap);
         btd.setNoiDungBaiTap(noiDungBaiTap);
         btd.setFile(file.getOriginalFilename());
+        String fileName = StringUtils.cleanPath(file.getOriginalFilename());
+//        String uploadDir = "C:\\Users\\KT\\IdeaProjects\\demo\\ProjectMangXaHoiSpringMvc\\uploads\\" + classId + "\\" + "baiTap" + "\\";
+        String uploadDir = "D:\\do an\\do-an\\projectAPI\\uploads\\LT1902E\\baiTap";
+
+        Path uploadPath = Paths.get(uploadDir);
+
+        if (!Files.exists(uploadPath)) {
+            Files.createDirectories(uploadPath);
+        }
+
+        try (InputStream inputStream = file.getInputStream()) {
+            Path filePath = uploadPath.resolve(fileName);
+            System.out.println(filePath.toFile().getAbsolutePath());
+            Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         baitapservice.insert(btd);
         return new RedirectView("Teacher/addBaiTap");
     }

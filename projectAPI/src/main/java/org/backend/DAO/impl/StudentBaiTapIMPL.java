@@ -51,7 +51,17 @@ public class StudentBaiTapIMPL implements StudentBaiTapDAO {
     }
 
     @Override
-    public boolean insert(StudentBaiTap sbt) {
+    public boolean insertWithFile(StudentBaiTap sbt) {
+        return false;
+    }
+
+    @Override
+    public boolean insertWithLink(StudentBaiTap sbt) {
+        return false;
+    }
+
+    @Override
+    public boolean insertWithBoth(StudentBaiTap sbt) {
         return false;
     }
 

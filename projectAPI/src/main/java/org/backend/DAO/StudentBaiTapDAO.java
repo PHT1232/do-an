@@ -9,7 +9,9 @@ public interface StudentBaiTapDAO {
     List<StudentBaiTap> getByUserName(String username);
     StudentBaiTap getByUserNameAndClassId(String username);
     List<StudentBaiTap> getByClassId(String classId);
-    boolean insert(StudentBaiTap sbt);
+    boolean insertWithFile(StudentBaiTap sbt);
+    boolean insertWithLink(StudentBaiTap sbt);
+    boolean insertWithBoth(StudentBaiTap sbt);
     boolean update(StudentBaiTap sbt);
     boolean delete(int id);
 }
