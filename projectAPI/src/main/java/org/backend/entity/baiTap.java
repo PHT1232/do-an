@@ -1,13 +1,33 @@
 package org.backend.entity;
 
+import java.util.List;
+
 public class baiTap {
     private int id;
     private String name;
     private String username;
     private String deadline;
-    private String file;
+    private List<String> file;
     private String tenBaiTap;
     private String noiDungBaiTap;
+    private String classID;
+    private String monhocID;
+
+    public String getClassID() {
+        return classID;
+    }
+
+    public void setClassID(String classID) {
+        this.classID = classID;
+    }
+
+    public String getMonhocID() {
+        return monhocID;
+    }
+
+    public void setMonhocID(String monhocID) {
+        this.monhocID = monhocID;
+    }
 
     public baiTap() {
 
@@ -45,11 +65,11 @@ public class baiTap {
         this.deadline = deadline;
     }
 
-    public String getFile() {
+    public List<String> getFile() {
         return file;
     }
 
-    public void setFile(String file) {
+    public void setFile(List<String> file) {
         this.file = file;
     }
 

@@ -34,13 +34,29 @@ public class baiTapIMPL implements baiTapDAO {
                 while (resultSet.next()) {
                     bt.setUsername(resultSet.getString("username"));
                     bt.setDeadline(resultSet.getString("deadline"));
-                    bt.setFile(resultSet.getString("file"));
                     bt.setTenBaiTap(resultSet.getString("tenBaiTap"));
                     bt.setNoiDungBaiTap(resultSet.getString("noiDungBaiTap"));
+                    bt.setClassID(resultSet.getString("classID"));
+                    bt.setMonhocID(resultSet.getString("monhocID"));
                 }
                 return bt;
             }
         }, id);
+    }
+
+    @Override
+    public int getLastId() {
+        String sql = "SELECT max(id) as 'id' FROM baitap";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<Integer>() {
+            @Override
+            public Integer extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                int id = 0;
+                while (resultSet.next()) {
+                    id = resultSet.getInt("id");
+                }
+                return id;
+            }
+        });
     }
 
     @Override
@@ -55,9 +71,10 @@ public class baiTapIMPL implements baiTapDAO {
                     bt.setName(resultSet.getString("name"));
                     bt.setUsername(resultSet.getString("username"));
                     bt.setDeadline(resultSet.getString("deadline"));
-                    bt.setDeadline(resultSet.getString("file"));
                     bt.setTenBaiTap(resultSet.getString("tenBaiTap"));
                     bt.setNoiDungBaiTap(resultSet.getString("noiDungBaiTap"));
+                    bt.setClassID(resultSet.getString("classID"));
+                    bt.setMonhocID(resultSet.getString("monhocID"));
                     ls.add(bt);
                 }
                 return ls;
@@ -67,14 +84,14 @@ public class baiTapIMPL implements baiTapDAO {
 
     @Override
     public boolean insert(baiTap bt) {
-        String sql = "insert into baitap(name, username, deadline, file, tenBaiTap, noiDungBaiTap) values (?,?,?,?,?,?)";
-        return jdbcTemplate.update(sql, bt.getName(), bt.getUsername(), bt.getDeadline(), bt.getFile(), bt.getTenBaiTap(), bt.getNoiDungBaiTap()) > 0;
+        String sql = "insert into baitap(name, username, deadline, tenBaiTap, noiDungBaiTap, classID, monhocID) values (?,?,?,?,?,?,?)";
+        return jdbcTemplate.update(sql, bt.getName(), bt.getUsername(), bt.getDeadline(), bt.getTenBaiTap(), bt.getNoiDungBaiTap(), bt.getClassID(), bt.getMonhocID()) > 0;
     }
 
     @Override
     public boolean update(baiTap bt) {
-        String sql = "update baitap set name = ?, username = ?, deadline = ?, file = ?, tenBaiTap = ?, noiDungBaiTap = ? where id = ?";
-        return jdbcTemplate.update(sql, bt.getName(), bt.getUsername(), bt.getDeadline(), bt.getFile(), bt.getTenBaiTap(), bt.getNoiDungBaiTap(), bt.getId()) > 0;
+        String sql = "update baitap set name = ?, username = ?, deadline = ?, tenBaiTap = ?, noiDungBaiTap = ? where id = ?";
+        return jdbcTemplate.update(sql, bt.getName(), bt.getUsername(), bt.getDeadline(), bt.getTenBaiTap(), bt.getNoiDungBaiTap(), bt.getId()) > 0;
     }
 
     @Override

@@ -10,4 +10,5 @@ public interface TeacherService {
     boolean delete(String id);
     boolean update(String id, TeacherDTO teacherDTO);
     List<TeacherDTO> getById(String id);
+    TeacherDTO getByUser(String id);
 }

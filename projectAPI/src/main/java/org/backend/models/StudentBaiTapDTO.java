@@ -5,6 +5,7 @@ public class StudentBaiTapDTO {
     private String username;
     private int file;
     private int lienKet;
+    private int baiTapId;
     private String fileName;
     private String lienKetName;
 
@@ -18,6 +19,14 @@ public class StudentBaiTapDTO {
         this.lienKet = lienKet;
         this.fileName = fileName;
         this.lienKetName = lienKetName;
+    }
+
+    public int getBaiTapId() {
+        return baiTapId;
+    }
+
+    public void setBaiTapId(int baiTapId) {
+        this.baiTapId = baiTapId;
     }
 
     public int getId() {

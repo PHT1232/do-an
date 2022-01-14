@@ -39,7 +39,7 @@
 
 <body class="   footer-offset">
     <script src="<c:url value="/resource/js/hs-navbar-vertical-aside-mini-cache.js"></c:url>"></script>
-    <jsp:include page="header.jsp"></jsp:include>
+    <jsp:include page="headerFrontend.jsp"></jsp:include>
         <div class="container">
             <nav class="js-mega-menu flex-grow-1 hs-menu-initialized hs-menu-horizontal">
                 <!-- Navbar -->
@@ -86,15 +86,37 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="label">
-                            Hạn nộp:
+                            Lớp:
                         </div>
-                        <input type="date" id="hanNop" name="deadline"/>
+                        <select name="classID" class="form-select">
+                            <option value="C5">DH9C5</option>
+                        </select>
                     </div>
                     <div class="col-md-6">
                         <div class="label">
-                            Hình ảnh:
+                            Tên môn học:
                         </div>
-                        <input type="file" name="file" class="btn btn-sm btn-white">
+                        <select name="monhocID" class="form-select">
+                            <option value="XHCN">Xã hội chủ nghĩa</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="label">
+                            Hạn nộp:
+                        </div>
+                        <input type="date" class="form-select" id="hanNop" name="deadline"/>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="label">
+                            File:
+                        </div>
+                        <input type="file" name="files" class="btn btn-sm btn-white">
+                        <div id="container">
+
+                        </div>
+                        <input id="btnNop" type="button" style="width: 278px; margin-top: 15px; text-align: center; padding: 0px; height: 35px" value="Thêm hoặc tạo +" class="btn btn-sm btn-white">
                     </div>
                 </div>
 
@@ -123,7 +145,23 @@
     <script src="<c:url value="/resource/js/vendor.min.js"></c:url>"></script>
     <script src="<c:url value="/resource/js/theme.min.js"></c:url>"></script>
     <script src="<c:url value="/resource/js/index.js"></c:url>"></script>
-
+    <script>
+        $(document).ready(function () {
+            var x = 1;
+            var max_fields = 10;
+            $('#btnNop').click(function (e) {
+                var input = document.createElement("input");
+                e.preventDefault();
+                if (x < max_fields) {
+                    x++;
+                    input.type = "file";
+                    input.name = "files";
+                    input.className = "btn btn-sm btn-white";
+                    container.append(input);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

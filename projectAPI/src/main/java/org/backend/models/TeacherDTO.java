@@ -11,11 +11,12 @@ public class TeacherDTO {
     public TeacherDTO() {
     }
 
-    public TeacherDTO(String id, String name, int age, String address, String sdt) {
+    public TeacherDTO(String id, String name, int age, String address, String picture, String sdt) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.address = address;
+        this.picture = picture;
         this.sdt = sdt;
     }
 
@@ -66,4 +67,5 @@ public class TeacherDTO {
     public void setPicture(String picture) {
         this.picture = picture;
     }
+    
 }

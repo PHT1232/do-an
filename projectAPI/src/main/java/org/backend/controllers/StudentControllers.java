@@ -79,16 +79,21 @@ public class StudentControllers {
             str += sc.nextLine();
         }
         sc.close();
-        JSONObject obj = new JSONObject(str);
+        JSONArray array = new JSONArray(str);
         final String new_format = "dd-MM-yyyy";
         final String old_format = "yyyy-MM-dd";
+        List<String> filename = new ArrayList<>();
+        for (int i = 1; i < array.length(); i++) {
+            JSONObject obj2 = array.getJSONObject(i);
+            filename.add(obj2.getString("filename"));
+        }
+        JSONObject obj = array.getJSONObject(0);
         String old_dateS = obj.getString("deadline");
         SimpleDateFormat sdf = new SimpleDateFormat(old_format);
         Date d = sdf.parse(old_dateS);
         sdf.applyPattern(new_format);
         String newStringDate = sdf.format(d);
-
-        map.addAttribute("myFile", obj.getString("file"));
+        map.addAttribute("myFile", filename);
         map.addAttribute("tenBaiTap", obj.getString("tenBaiTap"));
         map.addAttribute("denHan", newStringDate);
         map.addAttribute("noiDungBaiTap", obj.getString("noiDungBaiTap"));

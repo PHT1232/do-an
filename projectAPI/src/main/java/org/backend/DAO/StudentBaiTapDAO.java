@@ -7,7 +7,9 @@ import java.util.List;
 public interface StudentBaiTapDAO {
     List<StudentBaiTap> getAll();
     List<StudentBaiTap> getByUserName(String username);
-    StudentBaiTap getByUserNameAndClassId(String username);
+    List<StudentBaiTap> getByBaiTapId(int id);
+    int getLastId();
+    StudentBaiTap getByUserNameAndBaiTapId(String username);
     List<StudentBaiTap> getByClassId(String classId);
     boolean insertWithFile(StudentBaiTap sbt);
     boolean insertWithLink(StudentBaiTap sbt);

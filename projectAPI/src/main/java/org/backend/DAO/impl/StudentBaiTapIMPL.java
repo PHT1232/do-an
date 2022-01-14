@@ -41,7 +41,43 @@ public class StudentBaiTapIMPL implements StudentBaiTapDAO {
     }
 
     @Override
-    public StudentBaiTap getByUserNameAndClassId(String username) {
+    public List<StudentBaiTap> getByBaiTapId(int id) {
+        String sql = "SELECT * FROM studentBaiTap where baiTapid = ?";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<List<StudentBaiTap>>() {
+            @Override
+            public List<StudentBaiTap> extractData(ResultSet rs) throws SQLException, DataAccessException {
+                List<StudentBaiTap> ls = new ArrayList<>();
+                while (rs.next()) {
+                    StudentBaiTap stbt = new StudentBaiTap();
+                    stbt.setId(rs.getInt("id"));
+                    stbt.setUsername(rs.getString("username"));
+                    stbt.setBaiTapId(rs.getInt("baiTapId"));
+                    stbt.setLienKetName(rs.getString("lienket"));
+                    ls.add(stbt);
+                }
+                return ls;
+            }
+        }, id);
+    }
+
+
+    @Override
+    public int getLastId() {
+        String sql = "SELECT max(id) as 'id' FROM studentbaitap";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<Integer>() {
+            @Override
+            public Integer extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                int id = 0;
+                while (resultSet.next()) {
+                    id = resultSet.getInt("id");
+                }
+                return id;
+            }
+        });
+    }
+
+    @Override
+    public StudentBaiTap getByUserNameAndBaiTapId(String username) {
         return null;
     }
 
@@ -52,7 +88,8 @@ public class StudentBaiTapIMPL implements StudentBaiTapDAO {
 
     @Override
     public boolean insertWithFile(StudentBaiTap sbt) {
-        return false;
+        String sql = "INSERT INTO studentBaiTap(`username`, `baiTapId`, `lienket`) VALUES (?,?,?)";
+        return jdbcTemplate.update(sql, sbt.getUsername(), sbt.getBaiTapId(), sbt.getLienKetName()) > 0;
     }
 
     @Override
