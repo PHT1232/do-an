@@ -80,4 +80,26 @@ public class StudentIMPL implements StudentDAO {
             }
         });
     }
+
+    @Override
+    public List<Student> getByUsername(String username) {
+        String sql = "SELECT * FROM sinhvien INNER JOIN account on sinhvien.id = account.studentId where account.username = ?";
+        return jdbcTemplate.query(sql, (ResultSetExtractor<? extends List<Student>>) new ResultSetExtractor<List<Student>>() {
+            @Override
+            public List<Student> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                List<Student> ls = new ArrayList<>();
+                while (resultSet.next()) {
+                    Student st = new Student();
+                    st.setId(resultSet.getString("id"));
+                    st.setName(resultSet.getString("name"));
+                    st.setAge(resultSet.getInt("age"));
+                    st.setAddress(resultSet.getString("address"));
+                    st.setPicture(resultSet.getString("picture"));
+                    st.setSdt(resultSet.getString("sdt"));
+                    ls.add(st);
+                }
+                return ls;
+            }
+        }, username);
+    }
 }

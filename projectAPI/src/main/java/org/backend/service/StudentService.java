@@ -10,4 +10,5 @@ public interface StudentService {
     boolean delete(String id);
     boolean update(String id, StudentDTO studentDTO);
     List<StudentDTO> getById(String id);
+    List<StudentDTO> getByUsername(String username);
 }

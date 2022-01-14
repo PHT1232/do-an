@@ -75,4 +75,21 @@ public class StudentServiceIMPL implements StudentService {
         }
         return lsDTO;
     }
+
+    @Override
+    public List<StudentDTO> getByUsername(String username) {
+        List<StudentDTO> lsDTO = new ArrayList<>();
+        List<Student> ls = studentDAO.getByUsername(username);
+        for (Student student : ls) {
+            StudentDTO studentDTO = new StudentDTO();
+            studentDTO.setId(student.getId());
+            studentDTO.setName(student.getName());
+            studentDTO.setAge(student.getAge());
+            studentDTO.setAddress(student.getAddress());
+            studentDTO.setPicture(student.getPicture());
+            studentDTO.setSdt(student.getSdt());
+            lsDTO.add(studentDTO);
+        }
+        return lsDTO;
+    }
 }

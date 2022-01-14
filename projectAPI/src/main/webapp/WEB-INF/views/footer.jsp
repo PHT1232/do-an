@@ -1,46 +1,32 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: phatn
-  Date: 12/28/2021
-  Time: 11:31 AM
-  To change this template use File | Settings | File Templates.
---%>
-<div class="footer">
-    <div class="row justify-content-between align-items-center">
-        <div class="col">
-            <p class="font-size-sm mb-0">&copy; Front. <span class="d-none d-sm-inline-block">2020 Htmlstream.</span></p>
-        </div>
-        <div class="col-auto">
-            <div class="d-flex justify-content-end">
-                <!-- List Dot -->
-                <ul class="list-inline list-separator">
-                    <li class="list-inline-item">
-                        <a class="list-separator-link" href="#">FAQ</a>
-                    </li>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+			<footer class="py-4 bg-light mt-auto">
+				<div class="container-fluid px-4">
+					<div
+						class="d-flex align-items-center justify-content-between small">
+						<div class="text-muted">Copyright &copy; Your Website 2021</div>
+						<div>
+							<a href="#">Privacy Policy</a> &middot; <a href="#">Terms
+								&amp; Conditions</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+	<script src="<c:url value="/resource/js/scripts_backend.js"></c:url>"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
+		crossorigin="anonymous"></script>
+	<script
+		src="<c:url value="/resource/assets/demo/chart-area-demo.js"></c:url>"></script>
+	<script
+		src="<c:url value="/resource/assets/demo/chart-bar-demo.js"></c:url>"></script>
+	<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"
+		crossorigin="anonymous"></script>
+	<script
+		src="<c:url value="/resource/js/datatables-simple-demo_backend.js"></c:url>"></script>
 
-                    <li class="list-inline-item">
-                        <a class="list-separator-link" href="#">License</a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <!-- Keyboard Shortcuts Toggle -->
-                        <div class="hs-unfold">
-                            <a class="js-hs-unfold-invoker btn btn-icon btn-ghost-secondary rounded-circle" href="javascript:;" data-hs-unfold-options='{
-                              "target": "#keyboardShortcutsSidebar",
-                              "type": "css-animation",
-                              "animationIn": "fadeInRight",
-                              "animationOut": "fadeOutRight",
-                              "hasOverlay": true,
-                              "smartPositionOff": true
-                             }'>
-                                <i class="tio-command-key"></i>
-                            </a>
-                        </div>
-                        <!-- End Keyboard Shortcuts Toggle -->
-                    </li>
-                </ul>
-                <!-- End List Dot -->
-            </div>
-        </div>
-    </div>
-</div>

@@ -10,4 +10,5 @@ public interface StudentDAO {
     boolean delete(String id);
     boolean update(String id, Student student);
     List<Student> getById(String id);
+    List<Student> getByUsername(String username);
 }

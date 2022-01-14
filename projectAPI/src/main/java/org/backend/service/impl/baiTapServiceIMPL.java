@@ -29,9 +29,10 @@ public class baiTapServiceIMPL implements baiTapService {
         btd.setName(bt.getName());
         btd.setUsername(bt.getUsername());
         btd.setDeadline(bt.getDeadline());
-        btd.setFile(bt.getFile());
         btd.setTenBaiTap(bt.getTenBaiTap());
         btd.setNoiDungBaiTap(bt.getNoiDungBaiTap());
+        btd.setClassID(bt.getClassID());
+        btd.setMonhocID(bt.getMonhocID());
         return btd;
     }
 
@@ -44,12 +45,18 @@ public class baiTapServiceIMPL implements baiTapService {
             btd.setName(bt.getName());
             btd.setUsername(bt.getUsername());
             btd.setDeadline(bt.getDeadline());
-            btd.setFile(bt.getFile());
             btd.setTenBaiTap(bt.getTenBaiTap());
             btd.setNoiDungBaiTap(bt.getNoiDungBaiTap());
+            btd.setClassID(bt.getClassID());
+            btd.setMonhocID(bt.getMonhocID());
             ls.add(btd);
         }
         return ls;
+    }
+
+    @Override
+    public int getLastId() {
+        return bti.getLastId();
     }
 
     @Override
@@ -59,9 +66,10 @@ public class baiTapServiceIMPL implements baiTapService {
         bt.setName(btd.getName());
         bt.setUsername(btd.getUsername());
         bt.setDeadline(btd.getDeadline());
-        bt.setFile(btd.getFile());
         bt.setTenBaiTap(btd.getTenBaiTap());
         bt.setNoiDungBaiTap(btd.getNoiDungBaiTap());
+        bt.setClassID(btd.getClassID());
+        bt.setMonhocID(btd.getMonhocID());
         return bti.insert(bt);
     }
 
@@ -72,7 +80,6 @@ public class baiTapServiceIMPL implements baiTapService {
         bt.setName(btd.getName());
         bt.setUsername(btd.getUsername());
         bt.setDeadline(btd.getDeadline());
-        bt.setFile(btd.getFile());
         bt.setTenBaiTap(btd.getTenBaiTap());
         bt.setNoiDungBaiTap(btd.getNoiDungBaiTap());
         return bti.update(bt);

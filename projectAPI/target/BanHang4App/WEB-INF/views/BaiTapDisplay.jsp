@@ -43,7 +43,7 @@
 </head>
 <body class="footer-offset">
 <script src="<c:url value="/resource/js/hs-navbar-vertical-aside-mini-cache.js"></c:url>"></script>
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headerFrontend.jsp"></jsp:include>
     <div class="container">
         <nav class="js-mega-menu flex-grow-1 hs-menu-initialized hs-menu-horizontal">
             <!-- Navbar -->
@@ -89,9 +89,11 @@
                     </div>
                 </div>
                 ${noiDungBaiTap}
-                    <a href="<c:url value="/upload/baiTap/${myFile}"></c:url>" download>
-                        <span style="color: blue" >${myFile}</span>
-                    </a>
+                <c:forEach var="filename" items="${myFile}">
+                    <a href="<c:url value="/upload/baiTap/${filename}"></c:url>" download>
+                        <span style="color: blue" >${filename}</span>
+                    </a><br/>
+                </c:forEach>
             </div>
             <div class="col-4">
                 <form action="/projectAPI_war/nopBaiTap?id=${id}" id="formNop" method="post" enctype="multipart/form-data">
@@ -116,7 +118,7 @@
                                         <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
                                     </svg>
                                     Liên kết
-                                    <input class="form-control" type="text" />
+                                    <input class="form-control" name="link" type="text" />
                                 </span>
                             <br>
                             <span id="lienKetSpan" style="cursor: pointer;" onclick="lienket()">
