@@ -75,4 +75,18 @@ public class TeacherServiceIMPL implements TeacherService {
         }
         return lsDTO;
     }
+    @Override
+    public TeacherDTO getByUser(String id){
+        Teacher ls = teacherDAO.getByUser(id);
+        TeacherDTO teacherDTO = new TeacherDTO();
+        teacherDTO.setId(ls.getId());
+        teacherDTO.setName(ls.getName());
+        teacherDTO.setAge(ls.getAge());
+        teacherDTO.setAddress(ls.getAddress());
+        teacherDTO.setPicture(ls.getPicture());
+        teacherDTO.setSdt(ls.getSdt());
+
+
+        return teacherDTO;
+    }
 }

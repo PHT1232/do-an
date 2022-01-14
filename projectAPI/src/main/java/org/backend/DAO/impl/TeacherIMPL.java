@@ -1,6 +1,7 @@
 package org.backend.DAO.impl;
 
 import org.backend.DAO.TeacherDAO;
+import org.backend.entity.Account;
 import org.backend.entity.Teacher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -79,5 +80,25 @@ public class TeacherIMPL implements TeacherDAO {
                 return ls;
             }
         }, id);
+    }
+
+    @Override
+    public Teacher getByUser(String userName) {
+        String sql = "SELECT * FROM `giaovien` WHERE giaovien.id = (SELECT account.teacherId FROM account WHERE account.username =  ?  )";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<Teacher>() {
+            @Override
+            public Teacher extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                Teacher teacher = new Teacher();
+                while (resultSet.next()) {
+                    teacher.setId(resultSet.getString("id"));
+                    teacher.setName(resultSet.getString("name"));
+                    teacher.setAge(resultSet.getInt("age"));
+                    teacher.setAddress(resultSet.getString("address"));
+                    teacher.setPicture(resultSet.getString("picture"));
+                    teacher.setSdt(resultSet.getString("sdt"));
+                }
+                return teacher;
+            }
+        }, userName);
     }
 }

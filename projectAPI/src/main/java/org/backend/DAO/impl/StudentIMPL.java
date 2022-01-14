@@ -49,19 +49,19 @@ public class StudentIMPL implements StudentDAO {
 
     @Override
     public boolean delete(String id) {
-        String sql = "DELETE FROM sinhVien where id = ?";
+        String sql = "DELETE FROM sinhvien where id = ?";
         return jdbcTemplate.update(sql, id) > 0;
     }
 
     @Override
     public boolean update(String id, Student student) {
-        String sql = "UPDATE sinhVien SET name = ?, age = ?, address = ?, sdt = ? where id = ?";
+        String sql = "UPDATE sinhvien SET name = ?, age = ?, address = ?, sdt = ? where id = ?";
         return jdbcTemplate.update(sql, student.getName(), student.getAge(), student.getAddress(),student.getSdt(), id) > 0;
     }
 
     @Override
     public List<Student> getById(String id) {
-        String sql = "SELECT * FROM sinhVien where id = ?";
+        String sql = "SELECT * FROM sinhvien where id=?";
         return jdbcTemplate.query(sql, (ResultSetExtractor<? extends List<Student>>) new ResultSetExtractor<List<Student>>() {
             @Override
             public List<Student> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
