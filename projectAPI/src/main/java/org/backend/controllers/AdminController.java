@@ -1,17 +1,11 @@
 package org.backend.controllers;
 
-import org.backend.models.ClassesDTO;
-import org.backend.models.LearningDTO;
-import org.backend.models.StudentDTO;
-import org.backend.models.SubjectsDTO;
-import org.backend.models.TeacherDTO;
-import org.backend.service.ClassesService;
-import org.backend.service.LearningService;
-import org.backend.service.StudentService;
-import org.backend.service.SubjectsService;
-import org.backend.service.TeacherService;
+import org.backend.models.*;
+import org.backend.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.server.RequestPath;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -22,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.context.request.RequestAttributes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -36,6 +31,9 @@ public class AdminController {
     SubjectsService subjectsService;
     @Autowired
     LearningService learningService;
+
+    @Autowired
+    AccountService accountService;
 
     @RequestMapping(value = "/admin/index", method = RequestMethod.GET)
     public String index(ModelMap model) {
@@ -338,4 +336,64 @@ public class AdminController {
 //			return "table_teacher_add";
     }
     //end learning
+
+    //user
+    @RequestMapping(value = "/admin/users", method = RequestMethod.GET)
+    public String user(@RequestParam(value = "message", required = false) String message, ModelMap model) {
+        try {
+            List<AccountDTO> listUser = accountService.getAll();
+            model.addAttribute("message", message);
+            model.addAttribute("listUser", listUser);
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println(e);
+        }
+
+        return "user/index";
+    }
+    @RequestMapping(value = "/admin/users/add", method = RequestMethod.GET)
+    public String add_user(ModelMap model) {
+        List<StudentDTO> listStudentDTO = studentService.getAll();
+        List<TeacherDTO> listTeacher = teacherService.getAll();
+        List<AccountDTO> listUser = accountService.getAll();
+        List<String> listRoles = new ArrayList<>();
+        listRoles.add("ADMIN");
+        listRoles.add("TEACHER");
+        listRoles.add("STUDENT");
+        model.addAttribute("listUser", listUser);
+        model.addAttribute("listRoles", listRoles);
+        model.addAttribute("listTeacher", listTeacher);
+        model.addAttribute("listStudent", listStudentDTO);
+        model.addAttribute("userDTO", new AccountDTO());
+        return "user/add";
+    }
+    public String passwordEncoder(String password) {
+        String hash = BCrypt.hashpw(password, BCrypt.gensalt(12));
+        return hash;
+    }
+    @RequestMapping(value = "/admin/users/add_action", method = RequestMethod.POST)
+    public String add_action_user(@ModelAttribute ("userDTO")AccountDTO accountDTO, ModelMap model) {
+        String error = "Something Wrong!";
+        try {
+//				System.out.println(learningDTO.getId());
+//				System.out.println(learningDTO.getClassId());
+            if (accountDTO.getTeacherId()== "") {
+                accountDTO.setTeacherId(null);
+            }
+            if (accountDTO.getStudentId()== "") {
+                accountDTO.setStudentId(null);
+            }
+            accountDTO.setPassword(passwordEncoder(accountDTO.getPassword()));
+            accountService.insert(accountDTO);
+            accountService.insertAuthorities(accountDTO.getUserName(),accountDTO.getAuthority());
+            error = "Add Success";
+        } catch (Exception e) {
+            // TODO: handle exception
+            System.out.println(e);
+        }
+        model.addAttribute("message", error);
+        return "redirect:/admin/users";
+//			return "table_teacher_add";
+    }
+    //end user
 }
