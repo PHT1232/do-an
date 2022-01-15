@@ -5,19 +5,29 @@ public class StudentDTO {
     private String name;
     private int age;
     private String address;
+    private String classId;
     private String picture;
     private String sdt;
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
 
     public StudentDTO() {
     }
 
-    public StudentDTO(String id, String name, int age, String address, String picture, String sdt) {
+    public StudentDTO(String id, String name, int age, String address,String classId, String picture, String sdt) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.address = address;
         this.picture = picture;
         this.sdt = sdt;
+        this.classId = classId;
     }
 
     public String getSdt() {
@@ -67,4 +77,5 @@ public class StudentDTO {
     public void setPicture(String picture) {
         this.picture = picture;
     }
+
 }

@@ -26,8 +26,11 @@
     <link rel="stylesheet" href="<c:url value="/resource/css/myStyle.css"></c:url>">
     <link rel="stylesheet" href="<c:url value="/resource/css/phong.css"></c:url>">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
     <!-- CSS Front Template -->
     <link rel="stylesheet" href="<c:url value="/resource/css/theme.min.css?v=1.0"></c:url>">
@@ -70,66 +73,62 @@
 <!-- Navbar Vertical -->
 
 
-
 <!-- End Navbar Vertical -->
 
 
 <main id="content" role="main" class="main pointer-event">
-    <form action="/chamdiem" method="post">
-        <div class="content container-fluid">
+    <div class="content container-fluid">
+        <div class="row">
+            <div class="col-9">
+                <h3>Các học viên đã nộp bài tập</h3>
+            </div>
+            <div class="col-2">
+                <select style="width: 42%;
+                    display: inline-block;" class="form-select">
+                    <% for (int i = 0; i <= 100; i++) {%>
+                    <option value="<% out.print(i); %>"><% out.print(i); %></option>
+                    <% } %>
+                </select>
+                <input style="margin-bottom: 5px;" type="submit" class="btn btn-primary" value="Chấm điểm">
+            </div>
             <div class="row">
-                <div class="col-9">
-                    <h3>Các học viên đã nộp bài tập</h3>
-                </div>
-                <div class="col-2">
-                    <select style="width: 42%;
-                    display: inline-block;" name="diem" class="form-select">
-                        <% for (int i = 0; i <= 100; i++) {%>
-                        <option value="<% out.print(i); %>"><% out.print(i); %></option>
-                        <% } %>
-                    </select>
-                    <input style="margin-bottom: 5px;" type="submit" class="btn btn-primary" value="Chấm điểm">
-                </div>
-                <div class="row">
-                    <table class="table">
-                        <thead>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Mã sinh viên</th>
+                        <th>Tên học viên</th>
+                        <th>Phần bài làm</th>
+                        <th>Chọn</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <c:forEach var="btn" items="${baitapnop}">
                         <tr>
-                            <th>Mã sinh viên</th>
-                            <th>Tên học viên</th>
-                            <th>Phần bài làm</th>
-                            <th>Chọn</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <c:forEach var="btn" items="${baitapnop}">
-                            <tr>
-                                <td>${btn.masv}</td>
-                                <td>${btn.name}</td>
-                                <td>
-                                    <c:forEach var="fn" items="${filenop}">
-                                        <%--                                    <c:if test="${fn.username.equals(btn.username)}">--%>
-                                        <c:forEach var="filn" items="${fn.fileName}">
-                                            <a href="<c:url value="/upload/baiTap/hocsinh/${filn}"></c:url>" download>
-                                                <span style="color: blue" >${filn}</span>
-                                            </a><br/>
-                                        </c:forEach>
-                                        <%--                                    </c:if>--%>
+                            <td>${btn.masv}</td>
+                            <td>${btn.name}</td>
+                            <td>
+                                <c:forEach var="fn" items="${filenop}">
+                                    <%--                                    <c:if test="${fn.username.equals(btn.username)}">--%>
+                                    <c:forEach var="filn" items="${fn.fileName}">
+                                        <a href="<c:url value="/upload/baiTap/hocsinh/${filn}"></c:url>" download>
+                                            <span style="color: blue">${filn}</span>
+                                        </a><br/>
                                     </c:forEach>
-                                </td>
-                                <td>
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="masv" type="checkbox" value="${btn.masv}" id="flexCheckDefault">
-                                    </div>
-                                </td>
-                            </tr>
-                        </c:forEach>
-                        </tbody>
-                    </table>
-                </div>
+                                    <%--                                    </c:if>--%>
+                                </c:forEach>
+                            </td>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                </div>
+                            </td>
+                        </tr>
+                    </c:forEach>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </form>
-
+    </div>
 
     <!-- Footer -->
 

@@ -29,16 +29,16 @@ public class MyUserDetailsService implements UserDetailsService {
         }
 
         List<String> roles = accountDAO.getUserRoles(username);
-        List<GrantedAuthority> grantList= new ArrayList<GrantedAuthority>();
+        List<GrantedAuthority> grantList = new ArrayList<GrantedAuthority>();
 
-        if (roles!= null) {
+        if (roles != null) {
             for (String role : roles) {
                 GrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + role);
                 grantList.add(authority);
             }
         }
 
-        UserDetails userDetails = new User(ac.getUserName(),ac.getPassword(), grantList);
+        UserDetails userDetails = new User(ac.getUserName(), ac.getPassword(), grantList);
         return userDetails;
     }
 }

@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="projectAPI:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6528294-3541-469b-9e4a-98bbc0d2039a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/projectAPI_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/projectAPI_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_c3p0_4_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/ClassesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/LearningDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/StudentDAO.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/SubjectsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/TeacherDAO.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/ClassesIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/LearningIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/SubjectsIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/entity/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/entity/Learning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/entity/Subjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/models/ClassesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/models/LearningDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/models/SubjectsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/ClassesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/LearningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/StudentService.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/SubjectsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/ClassesServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/LearningServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/SubjectsServiceIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/baiTap.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/classes/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/classes/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/classes/template_admin_newfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/learning/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/learning/content_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/learning/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/learning/template_admin_newfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/students/add_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/students/template_admin_newfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/students/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subjects/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subjects/content_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subjects/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/subjects/template_admin_newfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles_backend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/datatables-simple-demo_backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/scripts_backend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/Config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/Config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/Config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/Config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/FileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/FileDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/StudentBaiTapDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/StudentBaiTapDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/TeacherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/TeacherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/baiTapDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/baiTapDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/StudentBaiTapIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/StudentBaiTapIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/StudentIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/StudentIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/baiTapIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/DAO/impl/baiTapIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/AccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/AccountRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/StudentRESTcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/StudentRESTcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/TeacherRESTcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/REST/TeacherRESTcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/StudentControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/StudentControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/controllers/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/controllers/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/inceptor/inceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/inceptor/inceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/models/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/models/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/models/TeacherDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/models/TeacherDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/StudentBaiTapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/StudentBaiTapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/baiTapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/baiTapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/StudentServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/StudentServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/TeacherServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/TeacherServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/baiTapServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/backend/service/impl/baiTapServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/403page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/403page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/BaiTapDisplay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/BaiTapDisplay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-baiTap.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-baiTap.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/backend.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/backend.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chamDiem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/chamDiem.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerFrontend.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerFrontend.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nav_sides.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nav_sides.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nav_top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/nav_top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signIn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_classes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_classes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_classes_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_classes_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/table_teacher_update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher-index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher-index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template_admin_newfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template_admin_newfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/abstract-bg-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/abstract-bg-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ae.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ae.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/af.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/af.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ai.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ai.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/al.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/al.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/am.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/am.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ao.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ao.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/as.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/as.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/at-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/at-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/at.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/at.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/atlassian.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/atlassian.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/au.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/au.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/aw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/aw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ax.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ax.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/az.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/az.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ba.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ba.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bank-of-america.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bank-of-america.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/be.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/be.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bookingcom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bookingcom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/br.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/br.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/browse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/browse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/by.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/by.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/bz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/bz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ca.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ca.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/capsule.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/capsule.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/card-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/card-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/card-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/card-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/card-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/card-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/card-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/card-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/card-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/card-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/chrome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/chrome.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ci.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ci.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ck.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/click.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/click.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cn (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cn (1).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/co.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/co.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-container-overlay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-container-overlay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-content-centered.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-content-centered.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-overlay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/content-combinations-overlay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/create.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/create.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/credit-card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/cz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/cz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/de.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/de.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/demo-layouts-default-classic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/demo-layouts-default-classic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/digitalocean.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/digitalocean.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/dj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/dj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/dk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/dk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/dm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/dm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/do.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/do.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/dz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/dz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ec.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ec.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/eg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/eg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/eh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/eh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/er.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/er.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/es.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/es.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/et.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/et.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/eu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/eu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/excel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/excel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/figma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fitbit-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fitbit-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/flow-xo-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/flow-xo-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/footer-default-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/footer-default-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/footer-default-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/footer-default-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/fr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/fr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/frontapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/frontapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ga.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ga.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-eng.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-eng.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-nir.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-nir.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-sct.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-sct.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-wls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gb-wls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gitlab-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gitlab-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gmail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gmail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/google-docs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/google-docs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/google-sheets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/google-sheets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/google-slides.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/google-slides.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/google-webdev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/google-webdev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/graphs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/graphs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/guideline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/guideline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/gy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/gy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/header-default-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/header-default-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/header-default-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/header-default-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/header-double-line-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/header-double-line-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/header-double-line-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/header-double-line-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/hi-five.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/hi-five.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/hk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/hk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/hn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/hn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/hr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/hr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ht.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ht.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/htmlstream.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/htmlstream.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/hu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/hu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/id.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/id.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ie.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/il.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/il.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/im.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/im.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/io.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/io.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/iq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/iq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ir.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ir.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/is.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/is.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/it (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/it (1).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/it.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/it.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/je.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/je.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/jira.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/jira.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/jm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/jm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/jo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/jo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/jp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/jp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ke.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ki.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ki.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/km.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/km.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ky.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ky.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/kz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/kz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/la.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/la.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/layar-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/layar-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-default.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-default.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/layouts-sidebar-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/li.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/li.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-short-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-short-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-short.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-short.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/logo-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/lv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/lv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ly.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ly.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mailchimp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mailchimp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mastercard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mastercard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/md.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/md.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/me.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ml.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ms.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ms.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/my.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/my.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/mz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/mz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/na.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/na.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ne.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ne.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ng.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ng.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ni.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ni.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/np.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/np.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/nz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/nz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/om.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/om.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pdf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/phone-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/phone-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/placeholder-csv-format.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/placeholder-csv-format.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/placeholder-img-format.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/placeholder-img-format.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/print.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/print.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/project-schedule.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/project-schedule.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/prosperops.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/prosperops.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ps.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ps.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/pw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/pw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/py.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/py.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/qa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/qa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/re.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/re.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/review-5-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/review-5-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/review-rating-shield.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/review-rating-shield.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/rs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/rs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ru.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ru.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/rw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/rw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/se.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/se.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/si.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/si.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-mini-plus-one-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-mini-plus-one-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-cols-between.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-cols-between.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-plus-mini-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-combinations-two-plus-mini-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-compact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-compact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-default-classic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-default-classic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-overlay-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-overlay-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-overlay-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-detached-overlay-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-mini.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sidebar-mini.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/so.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/so.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sorry.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sorry.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/spec.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/spec.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/spotify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/spotify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/st.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/st.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/star-muted.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/star-muted.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/sz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/sz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/td.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/td.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/th.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/th.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/think.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/think.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/to.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/to.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/tz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/tz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ua.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ua.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/um.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/um.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/unlock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/unlock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/us.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/us.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/uy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/uy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/uz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/uz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/va.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/va.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/vc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/vc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ve.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ve.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/vg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/vg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/vi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/vi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/visa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/vn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/vn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/vu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/vu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/wf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/wf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/word.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/word.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/world-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/world-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ws.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ws.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/ye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/ye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/yelling-reverse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/yelling-reverse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/yelling.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/yelling.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/yt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/yt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/za.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/za.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/zm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/zm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/img/zw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/img/zw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/js/chartjs-extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/js/chartjs-extensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/js/hs-navbar-vertical-aside-mini-cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/js/hs-navbar-vertical-aside-mini-cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/js/hs.chartjs-matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/js/hs.chartjs-matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/backend/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/TeacherDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/TeacherDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/AccountRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/AccountRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/StudentRESTcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/StudentRESTcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController$baiTapNop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController$baiTapNop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController$fileNop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController$fileNop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/controllers/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/models/TeacherDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/models/TeacherDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/impl/StudentServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/impl/StudentServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/impl/TeacherServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/classes/org/backend/service/impl/TeacherServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/lib/jackson-databind-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/403page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/403page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/BaiTapDisplay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/BaiTapDisplay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/_menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/_menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/add-baiTap.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/add-baiTap.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/backend.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/backend.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/chamDiem.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/chamDiem.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/headerFrontend.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/headerFrontend.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/nav_sides.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/nav_sides.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/nav_top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/nav_top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/signIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/signIn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_classes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_classes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_classes_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_classes_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_student.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher_add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/table_teacher_update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/teacher-index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/teacher-index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/template_admin_newfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/template_admin_newfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/user_profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/views/user_profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/abstract-bg-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/abstract-bg-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ae.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ae.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/af.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/af.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ai.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ai.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/al.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/al.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/am.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/am.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ao.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ao.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/as.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/as.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/at-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/at-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/at.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/at.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/atlassian.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/atlassian.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/au.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/au.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/aw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/aw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ax.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ax.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/az.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/az.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ba.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ba.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bank-of-america.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bank-of-america.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/be.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/be.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bookingcom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bookingcom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/br.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/br.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/browse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/browse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/by.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/by.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/bz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/bz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ca.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ca.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/capsule.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/capsule.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/card-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/chrome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/chrome.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ci.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ci.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ck.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/click.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/click.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cn (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cn (1).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/co.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/co.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-container-overlay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-container-overlay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-content-centered.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-content-centered.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-overlay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/content-combinations-overlay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/create.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/create.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/credit-card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/cz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/cz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/de.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/de.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/demo-layouts-default-classic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/demo-layouts-default-classic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/digitalocean.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/digitalocean.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/dj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/dj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/dk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/dk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/dm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/dm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/do.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/do.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/dz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/dz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ec.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ec.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/eg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/eg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/eh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/eh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/er.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/er.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/es.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/es.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/et.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/et.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/eu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/eu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/excel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/excel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/figma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fitbit-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fitbit-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/flow-xo-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/flow-xo-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/footer-default-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/footer-default-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/footer-default-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/footer-default-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/fr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/fr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/frontapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/frontapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ga.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ga.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-eng.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-eng.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-nir.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-nir.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-sct.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-sct.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-wls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb-wls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gitlab-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gitlab-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gmail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gmail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-docs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-docs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-sheets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-sheets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-slides.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-slides.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-webdev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/google-webdev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/graphs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/graphs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/guideline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/guideline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/gy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/gy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-default-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-default-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-default-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-default-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-double-line-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-double-line-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-double-line-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/header-double-line-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/hi-five.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/hi-five.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/hk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/hk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/hn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/hn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/hr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/hr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ht.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ht.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/htmlstream.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/htmlstream.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/hu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/hu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/id.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/id.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ie.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/il.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/il.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/im.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/im.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/io.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/io.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/iq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/iq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ir.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ir.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/is.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/is.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/it (1).svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/it (1).svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/it.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/it.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/je.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/je.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/jira.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/jira.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/jm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/jm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/jo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/jo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/jp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/jp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ke.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ki.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ki.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/km.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/km.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ky.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ky.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/kz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/kz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/la.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/la.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/layar-gray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/layar-gray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-default.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-default.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/layouts-sidebar-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/li.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/li.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-short-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-short-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-short.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-short.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/lv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/lv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ly.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ly.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mailchimp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mailchimp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mastercard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mastercard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/md.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/md.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/me.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/me.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ml.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mq.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ms.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ms.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/my.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/my.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/mz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/mz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/na.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/na.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ne.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ne.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ng.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ng.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ni.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ni.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/no.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/np.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/np.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/nz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/nz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/om.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/om.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pdf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/phone-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/phone-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/placeholder-csv-format.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/placeholder-csv-format.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/placeholder-img-format.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/placeholder-img-format.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/print.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/print.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/project-schedule.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/project-schedule.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/prosperops.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/prosperops.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ps.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ps.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/pw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/pw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/py.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/py.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/qa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/qa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/re.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/re.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/review-5-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/review-5-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/review-rating-shield.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/review-rating-shield.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/rs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/rs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ru.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ru.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/rw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/rw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/se.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/se.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/si.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/si.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-mini-plus-one-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-mini-plus-one-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-cols-between.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-cols-between.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-plus-mini-cols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-combinations-two-plus-mini-cols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-compact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-compact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-default-classic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-default-classic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-overlay-container.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-overlay-container.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-overlay-fluid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-detached-overlay-fluid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-mini.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sidebar-mini.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/so.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/so.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sorry.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sorry.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/spec.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/spec.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/spotify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/spotify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/st.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/st.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/star-muted.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/star-muted.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sx.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sx.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/sz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/sz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/td.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/td.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/th.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/th.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/think.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/think.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tj.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tj.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/to.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/to.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/tz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/tz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ua.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ua.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/um.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/um.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/unlock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/unlock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/us.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/us.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/uy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/uy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/uz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/uz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/va.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/va.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/vc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/vc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ve.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ve.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/vg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/vg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/vi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/vi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/visa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/vn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/vn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/vu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/vu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/wf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/wf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/word.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/word.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/world-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/world-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ws.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ws.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/ye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/ye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/yelling-reverse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/yelling-reverse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/yelling.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/yelling.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/yt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/yt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/za.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/za.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/zm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/zm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/img/zw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/img/zw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/js/chartjs-extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/js/chartjs-extensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/js/hs-navbar-vertical-aside-mini-cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/js/hs-navbar-vertical-aside-mini-cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/js/hs.chartjs-matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/js/hs.chartjs-matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/backend/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BanHang4App/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BanHang4App/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/Component/MySimpleUrlAuthenticationSuccesshandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/TeacherDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/DAO/TeacherDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/StudentIMPL$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/StudentIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/StudentIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/DAO/impl/TeacherIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/AccountRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/AccountRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/StudentRESTcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/StudentRESTcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController$baiTapNop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController$baiTapNop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController$fileNop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController$fileNop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/controllers/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/models/TeacherDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/models/TeacherDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/service/impl/StudentServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/service/impl/StudentServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/backend/service/impl/TeacherServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/backend/service/impl/TeacherServiceIMPL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/Config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/Config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/AccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/StudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/TeacherDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/AccountIMPL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/AccountIMPL$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/AccountIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/controllers/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/controllers/REST/AccountRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/controllers/REST/StudentRESTcontroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/controllers/StudentControllers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/entity/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/models/AccountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/models/StudentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/models/TeacherDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/impl/AccountServiceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/impl/StudentServiceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/classes/org/backend/service/impl/TeacherServiceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.12.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jtds-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.3.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-5.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-5.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-crypto-5.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-5.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-5.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-6.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT/signIn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/Config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/AccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/StudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/TeacherDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/StudentIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/DAO/impl/TeacherIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/controllers/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/controllers/REST/AccountRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/controllers/REST/StudentRESTcontroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/controllers/REST/TeacherRESTcontroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/controllers/StudentControllers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/entity/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/models/StudentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/models/TeacherDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/service/impl/StudentServiceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/classes/org/backend/service/impl/TeacherServiceIMPL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jackson-annotations-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jackson-core-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jackson-databind-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jackson-dataformat-xml-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jackson-module-jaxb-annotations-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/jtds-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-jdbc-5.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-tx-5.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/stax2-api-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/lib/woodstox-core-6.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/projectAPI/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="23h0IlNAFf7H0Fnnsh0ME00axUu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\do an\do-an\projectAPI\src\main\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/projectAPI_war/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="projectAPI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/projectAPI_war" />
+          </settings>
+        </artifact>
+        <artifact name="projectAPI:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/projectAPI_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="90e3977c-f751-43b8-b412-db3ff33fa2ad" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64759" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="projectAPI:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6528294-3541-469b-9e4a-98bbc0d2039a" name="Changes" comment="" />
+      <created>1642170937443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642170937443</updated>
+      <workItem from="1642170938637" duration="16244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

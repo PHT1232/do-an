@@ -36,7 +36,8 @@
 <header class="position-absolute top-0 left-0 right-0 mt-3 mx-3">
     <div class="d-flex d-lg-none justify-content-between">
         <a href="index.jsp">
-            <img class="w-100" src="<c:url value="/resource/img/logo.svg"></c:url>" alt="Image Description" style="min-width: 7rem; max-width: 7rem;">
+            <img class="w-100" src="<c:url value="/resource/img/logo.svg"></c:url>" alt="Image Description"
+                 style="min-width: 7rem; max-width: 7rem;">
         </a>
     </div>
 </header>
@@ -53,7 +54,8 @@
                 <div class="position-absolute top-0 left-0 right-0 mt-3 mx-3">
                     <div class="d-none d-lg-flex justify-content-between">
                         <a href="index.jsp">
-                            <img class="w-100" src="<c:url value="/resource/img/logo.svg"></c:url>" alt="Image Description" style="min-width: 7rem; max-width: 7rem;">
+                            <img class="w-100" src="<c:url value="/resource/img/logo.svg"></c:url>"
+                                 alt="Image Description" style="min-width: 7rem; max-width: 7rem;">
                         </a>
                     </div>
                 </div>
@@ -61,7 +63,8 @@
 
                 <div style="max-width: 23rem;">
                     <div class="text-center mb-5">
-                        <img class="img-fluid" src="<c:url value="/resource/img/chat.svg"></c:url>" alt="Image Description" style="width: 12rem;">
+                        <img class="img-fluid" src="<c:url value="/resource/img/chat.svg"></c:url>"
+                             alt="Image Description" style="width: 12rem;">
                     </div>
 
                     <div class="mb-5">
@@ -71,27 +74,33 @@
                     <!-- List Checked -->
                     <ul class="list-checked list-checked-lg list-checked-primary list-unstyled-py-4">
                         <li class="list-checked-item">
-                            <span class="d-block font-weight-bold mb-1">All-in-one tool</span> Build, run, and scale your apps - end to end
+                            <span class="d-block font-weight-bold mb-1">All-in-one tool</span> Build, run, and scale
+                            your apps - end to end
                         </li>
 
                         <li class="list-checked-item">
-                            <span class="d-block font-weight-bold mb-1">Easily add &amp; manage your services</span> It brings together your tasks, projects, timelines, files and more
+                            <span class="d-block font-weight-bold mb-1">Easily add &amp; manage your services</span> It
+                            brings together your tasks, projects, timelines, files and more
                         </li>
                     </ul>
                     <!-- End List Checked -->
 
                     <div class="row justify-content-between mt-5 gx-2">
                         <div class="col">
-                            <img class="img-fluid" src="<c:url value="/resource/img/gitlab-gray.svg"></c:url>" alt="Image Description">
+                            <img class="img-fluid" src="<c:url value="/resource/img/gitlab-gray.svg"></c:url>"
+                                 alt="Image Description">
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="<c:url value="/resource/img/fitbit-gray.svg"></c:url>" alt="Image Description">
+                            <img class="img-fluid" src="<c:url value="/resource/img/fitbit-gray.svg"></c:url>"
+                                 alt="Image Description">
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="<c:url value="/resource/img/flow-xo-gray.svg"></c:url>" alt="Image Description">
+                            <img class="img-fluid" src="<c:url value="/resource/img/flow-xo-gray.svg"></c:url>"
+                                 alt="Image Description">
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="<c:url value="/resource/img/layar-gray.svg"></c:url>" alt="Image Description">
+                            <img class="img-fluid" src="<c:url value="/resource/img/layar-gray.svg"></c:url>"
+                                 alt="Image Description">
                         </div>
                     </div>
                     <!-- End Row -->
@@ -112,7 +121,9 @@
                         <div class="js-form-message form-group">
                             <label class="input-label" for="signupSrEmail">Your email</label>
 
-                            <input type="text" class="form-control form-control-lg" name="username" id="signupSrEmail" placeholder="Markwilliams@example.com" aria-label="Markwilliams@example.com" required data-msg="Please enter a valid email address.">
+                            <input type="text" class="form-control form-control-lg" name="username" id="signupSrEmail"
+                                   placeholder="Markwilliams@example.com" aria-label="Markwilliams@example.com" required
+                                   data-msg="Please enter a valid email address.">
                         </div>
                         <!-- End Form Group -->
 
@@ -126,7 +137,10 @@
                             </label>
 
                             <div class="input-group input-group-merge">
-                                <input type="password" class="js-toggle-password form-control form-control-lg" name="password" id="signupSrPassword" placeholder="8+ characters required" aria-label="8+ characters required" required data-msg="Your password is invalid. Please try again."
+                                <input type="password" class="js-toggle-password form-control form-control-lg"
+                                       name="password" id="signupSrPassword" placeholder="8+ characters required"
+                                       aria-label="8+ characters required" required
+                                       data-msg="Your password is invalid. Please try again."
                                        data-hs-toggle-password-options='{
                              "target": "#changePassTarget",
                              "defaultClass": "tio-hidden-outlined",
@@ -145,8 +159,10 @@
                         <!-- Checkbox -->
                         <div class="form-group">
                             <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="termsCheckbox" name="termsCheckbox">
-                                <label class="custom-control-label font-size-sm text-muted" for="termsCheckbox"> Remember me</label>
+                                <input type="checkbox" class="custom-control-input" id="termsCheckbox"
+                                       name="termsCheckbox">
+                                <label class="custom-control-label font-size-sm text-muted" for="termsCheckbox">
+                                    Remember me</label>
                             </div>
                         </div>
                         <!-- End Checkbox -->
@@ -172,19 +188,19 @@
 
 <!-- JS Plugins Init. -->
 <script>
-    $(document).on('ready', function() {
+    $(document).on('ready', function () {
         // initialization of Show Password
-        $('.js-toggle-password').each(function() {
+        $('.js-toggle-password').each(function () {
             new HSTogglePassword(this).init()
         });
 
         // initialization of form validation
-        $('.js-validate').each(function() {
+        $('.js-validate').each(function () {
             $.HSCore.components.HSValidation.init($(this));
         });
 
         // initialization of select2
-        $('.js-select2-custom').each(function() {
+        $('.js-select2-custom').each(function () {
             var select2 = $.HSCore.components.HSSelect2.init($(this));
         });
     });

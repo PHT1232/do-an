@@ -15,7 +15,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 
 @ComponentScan(basePackages = {"org.backend"})
 @EnableWebSecurity
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     ApplicationConfig applicationConfig;
@@ -25,7 +25,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-                auth.userDetailsService(myUserDetailsService).passwordEncoder(passwordEncoder());
+        auth.userDetailsService(myUserDetailsService).passwordEncoder(passwordEncoder());
     }
 
     @Bean
@@ -42,8 +42,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
         http.csrf().disable();
         http.authorizeRequests()
                 .antMatchers("/Admin/**").access("hasRole('ROLE_ADMIN')")
-                .antMatchers("/Teacher/**").access("hasRole('ROLE_TEACHER') or hasRole('ROLE_ADMIN')")
-                .antMatchers("/Student/**").access("hasRole('ROLE_TEACHER') or hasRole('ROLE_ADMIN') or hasRole('ROLE_STUDENT')")
+                .antMatchers("/Teacher/**").access("hasRole('ROLE_TEACHER')")
+                .antMatchers("/Student/**").access("hasRole('ROLE_STUDENT')")
                 .antMatchers("/index").authenticated()
                 .and()
                 .formLogin()

@@ -1,14 +1,17 @@
 package org.backend.controllers.REST;
 
-import org.backend.models.AccountDTO;
+import org.backend.DAO.StudentBaiTapDAO;
+import org.backend.models.FilesDTO;
+import org.backend.models.StudentBaiTapDTO;
 import org.backend.models.StudentDTO;
 import org.backend.models.baiTapDTO;
 import org.backend.service.AccountService;
+import org.backend.service.FileService;
 import org.backend.service.StudentService;
 import com.google.gson.Gson;
 import org.backend.service.baiTapService;
+import org.backend.service.impl.StudentBaiTapService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,12 +20,15 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.view.RedirectView;
 
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 //@RequestMapping("/Api/Student")
@@ -31,10 +37,16 @@ public class StudentRESTcontroller {
     StudentService studentService;
 
     @Autowired
+    StudentBaiTapService studentBaiTapService;
+
+    @Autowired
     AccountService accountService;
 
     @Autowired
     baiTapService baiTapService;
+
+    @Autowired
+    FileService fileService;
 
     @RequestMapping(value = "/admin/getStudent", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String getStudent(HttpServletRequest request) {
@@ -99,27 +111,73 @@ public class StudentRESTcontroller {
         return gson.toJson(st);
     }
 
-    @RequestMapping(value = "/getBaiTap", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
-    public String getBaiTapStudent(@RequestParam(name = "id") int id) {
-        baiTapDTO st = baiTapService.getById(id);
+    @RequestMapping(value = "/findStudentByUsername", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
+    public String getStudentByUserName(@RequestParam(name = "username") String username) {
+        List<StudentDTO> st = studentService.getByUsername(username);
         Gson gson = new Gson();
         return gson.toJson(st);
     }
 
+    @RequestMapping(value = "/getBaiTap", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
+    public String getBaiTapStudent(@RequestParam(name = "id") int id) {
+        baiTapDTO st = baiTapService.getById(id);
+        List ls = new ArrayList();
+        ls.add(st);
+        for (FilesDTO fil : fileService.getListById(id)) {
+            ls.add(fil);
+        }
+        Gson gson = new Gson();
+        return gson.toJson(ls);
+    }
+
     @RequestMapping(value = "/nopBaiTap", method = RequestMethod.POST)
-    public RedirectView nopBaiTap(@RequestParam(name = "files") MultipartFile[] files, @RequestParam(name = "id") int id) {
+    public RedirectView nopBaiTap(@RequestParam(name = "files", required = false) MultipartFile[] files, @RequestParam(name = "id") int id, @RequestParam(name = "link", required = false) String link) throws IOException {
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
-        System.out.println(username);
-        System.out.println(id);
-        List<String> filename = new ArrayList<>();
-        for (MultipartFile file : files) {
-                filename.add(file.getOriginalFilename());
+//        System.out.println(files.length);
+        StudentBaiTapDTO stbd = new StudentBaiTapDTO();
+        FilesDTO filesDTO = new FilesDTO();
+        stbd.setUsername(username);
+        stbd.setLienKetName(link);
+        stbd.setBaiTapId(id);
+        studentBaiTapService.insertWithFile(stbd);
+        String uploadDir = "D:\\do an\\do-an\\projectAPI\\uploads\\LT1902E\\baiTap\\hocsinh";
+
+        Path uploadPath = Paths.get(uploadDir);
+
+        if (!Files.exists(uploadPath)) {
+            Files.createDirectories(uploadPath);
         }
 
-        for (int i = 0; i < filename.size(); i++) {
-            System.out.println(filename.get(i));
+        for (MultipartFile file : files) {
+//            filename.add(file.getOriginalFilename());
+            filesDTO.setFilename(file.getOriginalFilename());
+            try (InputStream inputStream = file.getInputStream()) {
+                Path filePath = uploadPath.resolve(file.getOriginalFilename());
+                System.out.println(filePath.toFile().getAbsolutePath());
+                Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            filesDTO.setBaiTapId(0);
+            filesDTO.setNopBaiTapId(studentBaiTapService.getLastId());
+            fileService.insert(filesDTO);
         }
 
         return new RedirectView("Student/baiTap?id="+id);
     }
+
+    @RequestMapping(value = "/getBaiTapNop")
+    public String getBaiTapNop(@RequestParam("id") int id) {
+        List<StudentBaiTapDTO> ls = studentBaiTapService.getByBaiTapId(id);
+        Gson gson = new Gson();
+        return gson.toJson(ls);
+    }
+
+    @RequestMapping(value = "/getFileNop")
+    public String getFileNop(@RequestParam("id") int id) {
+        Gson gson = new Gson();
+        return gson.toJson(fileService.getListById(id));
+    }
+
+
 }

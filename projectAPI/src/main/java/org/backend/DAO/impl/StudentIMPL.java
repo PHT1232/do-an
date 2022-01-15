@@ -2,6 +2,7 @@ package org.backend.DAO.impl;
 
 import org.backend.DAO.StudentDAO;
 import org.backend.entity.Student;
+import org.backend.entity.Teacher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -33,6 +34,7 @@ public class StudentIMPL implements StudentDAO {
                     st.setAge(resultSet.getInt("age"));
                     st.setAddress(resultSet.getString("address"));
                     st.setPicture(resultSet.getString("picture"));
+                    st.setClassId(resultSet.getString("classid"));
                     st.setSdt(resultSet.getString("sdt"));
                     ls.add(st);
                 }
@@ -43,8 +45,8 @@ public class StudentIMPL implements StudentDAO {
 
     @Override
     public boolean insert(Student student) {
-        String sql = "INSERT INTO sinhVien(`id`,`name`,`age`,`address`,`sdt`) Values (?,?,?,?,?)";
-        return jdbcTemplate.update(sql, student.getId(), student.getName(), student.getAge(), student.getAddress(),student.getSdt()) > 0;
+        String sql = "INSERT INTO sinhVien(`id`,`name`,`age`,`address`,`classid`,`sdt`) Values (?,?,?,?,?,?)";
+        return jdbcTemplate.update(sql, student.getId(), student.getName(), student.getAge(), student.getAddress(),student.getClassId(),student.getSdt()) > 0;
     }
 
     @Override
@@ -55,8 +57,8 @@ public class StudentIMPL implements StudentDAO {
 
     @Override
     public boolean update(String id, Student student) {
-        String sql = "UPDATE sinhvien SET name = ?, age = ?, address = ?, sdt = ? where id = ?";
-        return jdbcTemplate.update(sql, student.getName(), student.getAge(), student.getAddress(),student.getSdt(), id) > 0;
+        String sql = "UPDATE sinhvien SET name = ?, age = ?, address = ?, classid = ?, sdt = ? where id = ?";
+        return jdbcTemplate.update(sql, student.getName(), student.getAge(), student.getAddress(),student.getClassId(),student.getSdt(), id) > 0;
     }
 
     @Override
@@ -73,6 +75,7 @@ public class StudentIMPL implements StudentDAO {
                     st.setAge(resultSet.getInt("age"));
                     st.setAddress(resultSet.getString("address"));
                     st.setPicture(resultSet.getString("picture"));
+                    st.setClassId(resultSet.getString("classid"));
                     st.setSdt(resultSet.getString("sdt"));
                     ls.add(st);
                 }
@@ -82,9 +85,30 @@ public class StudentIMPL implements StudentDAO {
     }
 
     @Override
+    public Student getByUser(String username) {
+        String sql = "SELECT * FROM `sinhvien` WHERE sinhvien.id = (SELECT account.studentId FROM account WHERE account.username =  ?  )";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<Student>() {
+            @Override
+            public Student extractData(ResultSet resultSet) throws SQLException, DataAccessException {
+                Student teacher = new Student();
+                while (resultSet.next()) {
+                    teacher.setId(resultSet.getString("id"));
+                    teacher.setName(resultSet.getString("name"));
+                    teacher.setAge(resultSet.getInt("age"));
+                    teacher.setAddress(resultSet.getString("address"));
+                    teacher.setPicture(resultSet.getString("picture"));
+                    teacher.setClassId(resultSet.getString("classid"));
+                    teacher.setSdt(resultSet.getString("sdt"));
+                }
+                return teacher;
+            }
+        }, username);
+    }
+
+    @Override
     public List<Student> getByUsername(String username) {
-        String sql = "SELECT * FROM sinhvien INNER JOIN account on sinhvien.id = account.studentId where account.username = ?";
-        return jdbcTemplate.query(sql, (ResultSetExtractor<? extends List<Student>>) new ResultSetExtractor<List<Student>>() {
+        String sql = "SELECT * FROM `sinhvien` WHERE sinhvien.id = (SELECT account.studentId FROM account WHERE account.username =  ?  )";
+        return jdbcTemplate.query(sql, new ResultSetExtractor<List<Student>>() {
             @Override
             public List<Student> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
                 List<Student> ls = new ArrayList<>();
@@ -95,6 +119,7 @@ public class StudentIMPL implements StudentDAO {
                     st.setAge(resultSet.getInt("age"));
                     st.setAddress(resultSet.getString("address"));
                     st.setPicture(resultSet.getString("picture"));
+                    st.setClassId(resultSet.getString("classid"));
                     st.setSdt(resultSet.getString("sdt"));
                     ls.add(st);
                 }

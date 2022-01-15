@@ -1,8 +1,8 @@
 package org.backend.controllers;
 
 import org.backend.entity.Account;
-import org.backend.models.TeacherDTO;
-import org.backend.service.AccountService;
+import org.backend.models.*;
+import org.backend.service.*;
 import org.json.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -25,15 +25,30 @@ public class AccountController {
     @Autowired
     AccountService accountService;
 
+    @Autowired
+    SubjectsService subjectsService;
+
+    @Autowired
+    TeacherService teacherService;
+
+    @Autowired
+    LearningService learningService;
+
+    @Autowired
+    ClassesService classesService;
+
+    @Autowired
+    StudentService studentService;
+
     @RequestMapping(value = "/login")
     public String login(@RequestParam(value = "error", required = false) String error,
                         @RequestParam(value = "logout", required = false) String logout,
                         ModelMap model) throws ServletException, IOException {
         String errorMessge = null;
-        if(error != null) {
+        if (error != null) {
             errorMessge = "Username or Password is incorrect !!";
         }
-        if(logout != null) {
+        if (logout != null) {
             errorMessge = "You have been successfully logged out !!";
         }
         model.addAttribute("errorMessage", errorMessge);
@@ -60,8 +75,26 @@ public class AccountController {
 
     @RequestMapping("/index")
     public String index(ModelMap map) {
-        String username =  SecurityContextHolder.getContext().getAuthentication().getName();
-
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+        AccountDTO acd = accountService.getByUserName(username);
+        List<SubjectsDTO> sdtl = new ArrayList<>();
+        List<ClassesDTO> cdtol = new ArrayList<>();
+        if (acd.getStudentId() == null) {
+            List<LearningDTO> ltd = learningService.getByTeacherId(acd.getTeacherId());
+            for (LearningDTO ld : ltd) {
+                SubjectsDTO sdto = subjectsService.getBySingleId(ld.getIdMon());
+                ClassesDTO cdt = classesService.getBySingleId(ld.getClassId());
+                sdtl.add(sdto);
+                cdtol.add(cdt);
+            }
+            map.addAttribute("urlToClasse", "Teacher");
+            map.addAttribute("name", teacherService.getByUser(username).getName());
+        } else {
+            map.addAttribute("urlToClasse", "Student");
+            map.addAttribute("name", studentService.getByUser(username).getName());
+        }
+        map.addAttribute("subjectList", sdtl);
+        map.addAttribute("classList", cdtol);
         map.addAttribute("username", username);
         return "index";
     }

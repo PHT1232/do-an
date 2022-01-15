@@ -60,14 +60,15 @@ public class baiTapIMPL implements baiTapDAO {
     }
 
     @Override
-    public List<baiTap> getListById(int id) {
-        String sql = "SELECT * FROM baitap WHERE classId = ?";
+    public List<baiTap> getListById(String id, String monhoc) {
+        String sql = "SELECT * FROM baitap WHERE classID = ? and monhocID = ?";
         return jdbcTemplate.query(sql, new ResultSetExtractor<List<baiTap>>() {
             @Override
             public List<baiTap> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
                 List<baiTap> ls = new ArrayList();
                 while (resultSet.next()) {
                     baiTap bt = new baiTap();
+                    bt.setId(resultSet.getInt("id"));
                     bt.setName(resultSet.getString("name"));
                     bt.setUsername(resultSet.getString("username"));
                     bt.setDeadline(resultSet.getString("deadline"));
@@ -79,7 +80,7 @@ public class baiTapIMPL implements baiTapDAO {
                 }
                 return ls;
             }
-        });
+        }, id, monhoc);
     }
 
     @Override

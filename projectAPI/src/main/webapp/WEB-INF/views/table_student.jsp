@@ -20,6 +20,8 @@
 					<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
 					<li class="breadcrumb-item active">Students</li>
 				</ol>
+				<h3 class="card mb-4" style="color: red">${message}</h3>
+				
 				<div class="card mb-4">
 					<div class="card-body">
 						DataTables is a third party plugin that is used to generate the
@@ -28,6 +30,7 @@
 							DataTables documentation</a> .
 					</div>
 				</div>
+				<a href="/projectAPI_war/admin/students/add" class="btn btn-primary">Add Students</a>
 				<div class="card mb-4">
 					<div class="card-header">
 						<i class="fas fa-table me-1"></i> DataTable Students
@@ -40,8 +43,11 @@
 									<th>Name</th>
 									<th>Age</th>
 									<th>Address</th>
+									<th>Class ID</th>
 									<th>Picture</th>
 									<th>Phone Number</th>
+									<th>Actions</th>
+									
 								</tr>
 							</thead>
 							<tfoot>
@@ -50,8 +56,10 @@
 									<th>Name</th>
 									<th>Age</th>
 									<th>Address</th>
+									<th>Class ID</th>
 									<th>Picture</th>
 									<th>Phone Number</th>
+									<th>Actions</th>
 								</tr>
 							</tfoot>
 							<tbody>
@@ -62,9 +70,17 @@
 										<td>${student.getName()}</td>
 										<td>${student.getAge()}</td>
 										<td>${student.getAddress()}</td>
+										<td>${student.getClassId()}</td>
 										<td>${student.getPicture()}</td>
 										<td>${student.getSdt()}</td>
+										<td>
+											<a  href="#"><i class="fa fa-eye" aria-hMaGVden="true"></i></a>
+					                        <a  href="/projectAPI_war/admin/students/update/${student.getId()}"><i class="fa fa-retweet" aria-hMaGVden="true"></i></a>
+					                        <a  href="/projectAPI_war/admin/students/delete/${student.getId()}" onclick="return confirm('Are you sure about that ?')"><i class="fa fa-trash" aria-hMaGVden="true"></i></a>
+
+										</td>
 									</tr>
+									
 								</c:forEach>
 							</tbody>
 						</table>

@@ -1,9 +1,11 @@
 package org.backend.controllers.REST;
 
 import org.backend.models.AccountDTO;
+import org.backend.models.FilesDTO;
 import org.backend.models.TeacherDTO;
 import org.backend.models.baiTapDTO;
 import org.backend.service.AccountService;
+import org.backend.service.FileService;
 import org.backend.service.TeacherService;
 import com.google.gson.Gson;
 import org.backend.service.baiTapService;
@@ -16,12 +18,14 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.view.RedirectView;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -35,6 +39,9 @@ public class TeacherRESTcontroller {
 
     @Autowired
     baiTapService baitapservice;
+
+    @Autowired
+    FileService fileService;
 
     @RequestMapping(value = "/getTeacher", method = RequestMethod.GET, produces = "text/plain;charset=UTF-8")
     public String getTeacher() {
@@ -60,6 +67,8 @@ public class TeacherRESTcontroller {
 //        }
         return gson.toJson(list);
     }
+
+
 
     @RequestMapping(value = "/add-teacher", method = RequestMethod.POST)
     public String addTeacher(@RequestParam(name = "id") String id, @RequestParam(name = "name") String name, @RequestParam(name = "age") int age, @RequestParam(name = "address") String address, @RequestParam(name = "sdt") String sdt) {
@@ -98,16 +107,20 @@ public class TeacherRESTcontroller {
     }
 
     @RequestMapping(value = "/uploadBaiTap", method = RequestMethod.POST)
-    public RedirectView uploadBaiTap(@RequestParam(value = "classId", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("file") MultipartFile file, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) throws IOException {
+    public RedirectView uploadBaiTap(@RequestParam(value = "monhocID") String monhocID, @RequestParam(value = "classID", required = false) String classId, @RequestParam(value = "deadline") String deadline, @RequestParam("files") MultipartFile[] files, @RequestParam(value = "tenBaiTap") String tenBaiTap, @RequestParam(value = "noiDungBaiTap") String noiDungBaiTap) throws IOException {
         baiTapDTO btd = new baiTapDTO();
+        FilesDTO filesDTO = new FilesDTO();
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
         btd.setUsername(username);
         btd.setDeadline(deadline);
         btd.setTenBaiTap(tenBaiTap);
         btd.setNoiDungBaiTap(noiDungBaiTap);
-        btd.setFile(file.getOriginalFilename());
-        String fileName = StringUtils.cleanPath(file.getOriginalFilename());
+        btd.setClassID(classId);
+        btd.setMonhocID(monhocID);
 //        String uploadDir = "C:\\Users\\KT\\IdeaProjects\\demo\\ProjectMangXaHoiSpringMvc\\uploads\\" + classId + "\\" + "baiTap" + "\\";
+
+        baitapservice.insert(btd);
+
         String uploadDir = "D:\\do an\\do-an\\projectAPI\\uploads\\LT1902E\\baiTap";
 
         Path uploadPath = Paths.get(uploadDir);
@@ -115,15 +128,26 @@ public class TeacherRESTcontroller {
         if (!Files.exists(uploadPath)) {
             Files.createDirectories(uploadPath);
         }
-
-        try (InputStream inputStream = file.getInputStream()) {
-            Path filePath = uploadPath.resolve(fileName);
-            System.out.println(filePath.toFile().getAbsolutePath());
-            Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException e) {
-            e.printStackTrace();
+//        List<String> filename = new ArrayList<>();
+        for (MultipartFile file : files) {
+//            filename.add(file.getOriginalFilename());
+            filesDTO.setFilename(file.getOriginalFilename());
+            try (InputStream inputStream = file.getInputStream()) {
+                Path filePath = uploadPath.resolve(file.getOriginalFilename());
+                System.out.println(filePath.toFile().getAbsolutePath());
+                Files.copy(inputStream, filePath, StandardCopyOption.REPLACE_EXISTING);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            filesDTO.setBaiTapId(baitapservice.getLastId());
+            filesDTO.setNopBaiTapId(0);
+            fileService.insert(filesDTO);
         }
-        baitapservice.insert(btd);
         return new RedirectView("Teacher/addBaiTap");
     }
+
+//    @RequestMapping(value = "chamDiem")
+//    public RedirectView chamDiem(@RequestParam("Diem") int diem, @RequestParam("")) {
+//
+//    }
 }

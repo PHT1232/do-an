@@ -37,9 +37,9 @@ public class baiTapServiceIMPL implements baiTapService {
     }
 
     @Override
-    public List<baiTapDTO> getListById(int id) {
+    public List<baiTapDTO> getListById(String id, String monhoc) {
         List<baiTapDTO> ls = new ArrayList<>();
-        for (baiTap bt : bti.getListById(id)) {
+        for (baiTap bt : bti.getListById(id, monhoc)) {
             baiTapDTO btd = new baiTapDTO();
             btd.setId(bt.getId());
             btd.setName(bt.getName());

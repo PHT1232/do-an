@@ -26,6 +26,7 @@ public class StudentServiceIMPL implements StudentService {
             studentDTO.setName(student.getName());
             studentDTO.setAge(student.getAge());
             studentDTO.setAddress(student.getAddress());
+            studentDTO.setClassId(student.getClassId());
             studentDTO.setPicture(student.getPicture());
             studentDTO.setSdt(student.getSdt());
             lsDTO.add(studentDTO);
@@ -40,6 +41,7 @@ public class StudentServiceIMPL implements StudentService {
         st.setName(studentDTO.getName());
         st.setAge(studentDTO.getAge());
         st.setAddress(studentDTO.getAddress());
+        st.setClassId(studentDTO.getClassId());
         st.setSdt(studentDTO.getSdt());
         return studentDAO.insert(st);
     }
@@ -54,6 +56,7 @@ public class StudentServiceIMPL implements StudentService {
         Student st = new Student();
         st.setName(studentDTO.getName());
         st.setAddress(studentDTO.getAddress());
+        st.setClassId(studentDTO.getClassId());
         st.setAge(studentDTO.getAge());
         st.setSdt(studentDTO.getSdt());
         return studentDAO.update(id, st);
@@ -69,11 +72,26 @@ public class StudentServiceIMPL implements StudentService {
             studentDTO.setName(student.getName());
             studentDTO.setAge(student.getAge());
             studentDTO.setAddress(student.getAddress());
+            studentDTO.setClassId(student.getClassId());
             studentDTO.setPicture(student.getPicture());
             studentDTO.setSdt(student.getSdt());
             lsDTO.add(studentDTO);
         }
         return lsDTO;
+    }
+
+    @Override
+    public StudentDTO getByUser(String username) {
+        Student student = studentDAO.getByUser(username);
+        StudentDTO studentDTO = new StudentDTO();
+        studentDTO.setId(student.getId());
+        studentDTO.setName(student.getName());
+        studentDTO.setAge(student.getAge());
+        studentDTO.setAddress(student.getAddress());
+        studentDTO.setPicture(student.getPicture());
+        studentDTO.setClassId(student.getClassId());
+        studentDTO.setSdt(student.getSdt());
+        return studentDTO;
     }
 
     @Override
@@ -87,6 +105,7 @@ public class StudentServiceIMPL implements StudentService {
             studentDTO.setAge(student.getAge());
             studentDTO.setAddress(student.getAddress());
             studentDTO.setPicture(student.getPicture());
+            studentDTO.setClassId(student.getClassId());
             studentDTO.setSdt(student.getSdt());
             lsDTO.add(studentDTO);
         }

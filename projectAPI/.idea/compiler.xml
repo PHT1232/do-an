@@ -10,10 +10,8 @@
         <module name="projectAPI" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="projectAPI" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="projectAPI" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

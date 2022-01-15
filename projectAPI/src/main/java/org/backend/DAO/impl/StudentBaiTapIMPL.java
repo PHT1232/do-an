@@ -33,7 +33,7 @@ public class StudentBaiTapIMPL implements StudentBaiTapDAO {
             public List<StudentBaiTap> extractData(ResultSet resultSet) throws SQLException, DataAccessException {
                 List<StudentBaiTap> ls = new ArrayList<>();
                 while (resultSet.next()) {
-                    
+
                 }
                 return null;
             }

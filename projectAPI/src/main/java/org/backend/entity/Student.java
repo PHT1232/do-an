@@ -8,19 +8,29 @@ public class Student {
     private String name;
     private int age;
     private String address;
+    private String classId;
     private String picture;
     private String sdt;
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
+    }
 
     public Student() {
     }
 
-    public Student(String id, String name, int age, String address, String picture, String sdt) {
+    public Student(String id, String name, int age, String address,String classId, String picture, String sdt) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.address = address;
         this.picture = picture;
         this.sdt = sdt;
+        this.classId = classId;
     }
 
     public String getSdt() {

@@ -1,14 +1,17 @@
 package org.backend.controllers;
 
-import org.backend.models.TeacherDTO;
+import org.backend.models.*;
+import org.backend.service.*;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -26,6 +29,23 @@ import java.util.Scanner;
 @RequestMapping("/Student")
 public class StudentControllers {
 
+    @Autowired
+    AccountService accountService;
+
+    @Autowired
+    SubjectsService subjectsService;
+
+    @Autowired
+    TeacherService teacherService;
+
+    @Autowired
+    LearningService learningService;
+
+    @Autowired
+    ClassesService classesService;
+
+    @Autowired
+    StudentService studentService;
 
 //    @RequestMapping("/Profile")
 //    public String profile(ModelMap map, HttpServletRequest request) throws IOException {
@@ -100,5 +120,32 @@ public class StudentControllers {
         map.addAttribute("id", id);
         map.addAttribute("username", username);
         return "BaiTapDisplay";
+    }
+
+    @RequestMapping("/index")
+    public String index(ModelMap map, @RequestParam("monhoc") String xhcn) {
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+        AccountDTO acd = accountService.getByUserName(username);
+        List<SubjectsDTO> sdtl = new ArrayList<>();
+        List<ClassesDTO> cdtol = new ArrayList<>();
+        if (acd.getStudentId() == null) {
+            List<LearningDTO> ltd = learningService.getByTeacherId(acd.getTeacherId());
+            for (LearningDTO ld : ltd) {
+                SubjectsDTO sdto = subjectsService.getBySingleId(ld.getIdMon());
+                ClassesDTO cdt = classesService.getBySingleId(ld.getClassId());
+                sdtl.add(sdto);
+                cdtol.add(cdt);
+            }
+            map.addAttribute("urlToClasse", "Teacher");
+            map.addAttribute("name", teacherService.getByUser(username).getName());
+        } else {
+            map.addAttribute("urlToClasse", "Student");
+            map.addAttribute("name", studentService.getByUser(username).getName());
+        }
+        map.addAttribute("subjectList", sdtl);
+        map.addAttribute("classList", cdtol);
+        map.addAttribute("monhoc", xhcn);
+        map.addAttribute("username", username);
+        return "student-index";
     }
 }

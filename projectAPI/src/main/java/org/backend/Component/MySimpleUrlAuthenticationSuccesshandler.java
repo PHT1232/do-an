@@ -39,13 +39,13 @@ public class MySimpleUrlAuthenticationSuccesshandler implements AuthenticationSu
             return;
         }
 
-        redirectStrategy.sendRedirect(request,response,targetUrl);
+        redirectStrategy.sendRedirect(request, response, targetUrl);
     }
 
     protected String determineTargetUrl(final Authentication authentication) {
         Map<String, String> roleTarget = new HashMap<>();
         roleTarget.put("ROLE_ADMIN", "/admin/index");
-        roleTarget.put("ROLE_TEACHER", "/Teacher/index");
+        roleTarget.put("ROLE_TEACHER", "/index");
         roleTarget.put("ROLE_STUDENT", "/index");
 
         final Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
