@@ -73,31 +73,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-chart-area me-1"></i> Area Chart Example
-                            </div>
-                            <div class="card-body">
-                                <canvas id="myAreaChart" width="100%" height="40"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-chart-bar me-1"></i> Bar Chart Example
-                            </div>
-                            <div class="card-body">
-                                <canvas id="myBarChart" width="100%" height="40"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="card mb-4">
                     <div class="card-header">
-                        <i class="fas fa-table me-1"></i> DataTable Example
+                        <i class="fas fa-table me-1"></i> DataTable Teacher
                     </div>
                     <div class="card-body">
                         <table id="datatablesSimple">
@@ -109,6 +88,7 @@
                                 <th>Address</th>
                                 <th>Picture</th>
                                 <th>Phone Number</th>
+                                <th>Action</th>
                             </tr>
                             </thead>
                             <tfoot>
@@ -119,18 +99,84 @@
                                 <th>Address</th>
                                 <th>Picture</th>
                                 <th>Phone Number</th>
+                                <th>Action</th>
                             </tr>
                             </tfoot>
                             <tbody>
-                            <c:forEach var="teacher" items="${listTeacher}" varStatus="status">
+                            <c:forEach var="teacher" items="${listTeacher}"
+                                       varStatus="status">
                                 <tr>
-                                    <td>${status.index + 1}</td>
+                                    <td>${teacher.getId()}</td>
                                     <td>${teacher.getName()}</td>
                                     <td>${teacher.getAge()}</td>
                                     <td>${teacher.getAddress()}</td>
                                     <td>${teacher.getPicture()}</td>
                                     <td>${teacher.getSdt()}</td>
+                                    <td>
+                                        <a href="#"><i class="fa fa-eye" aria-hMaGVden="true"></i></a>
+                                        <a href="/projectAPI_war/admin/teachers/update?id=${teacher.getId()}"><i
+                                                class="fa fa-retweet" aria-hMaGVden="true"></i></a>
+                                        <a href="/projectAPI_war/admin/teachers/delete?id=${teacher.getId()}"
+                                           onclick="return confirm('Are you sure about that ?')"><i class="fa fa-trash"
+                                                                                                    aria-hMaGVden="true"></i></a>
+
+                                    </td>
                                 </tr>
+                            </c:forEach>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-table me-1"></i> DataTable Student
+                    </div>
+                    <div class="card-body">
+                        <table id="datatablesStudent">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Address</th>
+                                <th>Class ID</th>
+                                <th>Picture</th>
+                                <th>Phone Number</th>
+                                <th>Actions</th>
+
+                            </tr>
+                            </thead>
+                            <tfoot>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Address</th>
+                                <th>Class ID</th>
+                                <th>Picture</th>
+                                <th>Phone Number</th>
+                                <th>Actions</th>
+                            </tr>
+                            </tfoot>
+                            <tbody>
+                            <c:forEach var="student" items="${listStudents}"
+                                       varStatus="status">
+                                <tr>
+                                    <td>${student.getId()}</td>
+                                    <td>${student.getName()}</td>
+                                    <td>${student.getAge()}</td>
+                                    <td>${student.getAddress()}</td>
+                                    <td>${student.getClassId()}</td>
+                                    <td>${student.getPicture()}</td>
+                                    <td>${student.getSdt()}</td>
+                                    <td>
+                                        <a  href="#"><i class="fa fa-eye" aria-hMaGVden="true"></i></a>
+                                        <a  href="/projectAPI_war/admin/students/update/${student.getId()}"><i class="fa fa-retweet" aria-hMaGVden="true"></i></a>
+                                        <a  href="/projectAPI_war/admin/students/delete/${student.getId()}" onclick="return confirm('Are you sure about that ?')"><i class="fa fa-trash" aria-hMaGVden="true"></i></a>
+
+                                    </td>
+                                </tr>
+
                             </c:forEach>
                             </tbody>
                         </table>

@@ -38,6 +38,8 @@ public class AdminController {
     @RequestMapping(value = "/admin/index", method = RequestMethod.GET)
     public String index(ModelMap model) {
         List<TeacherDTO> list = teacherService.getAll();
+        List<StudentDTO> listStudent = studentService.getAll();
+
 //        for (TeacherDTO teacherDTO : list) {
 //			System.out.println(teacherDTO.getAge());
 //			System.out.println(teacherDTO.getName());
@@ -46,6 +48,7 @@ public class AdminController {
 //			System.out.println(teacherDTO.getSdt());
 //		}
         model.addAttribute("listTeacher", list);
+        model.addAttribute("listStudents", listStudent);
         return "backend";
     }
     // Teacher
